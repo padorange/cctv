@@ -3,15 +3,15 @@
 
 """
 	insee.py
-	class for dealing with INSEE data
+	clasess for dealing with INSEE data
 	
 	INSEE fournit des données COG (Code Officiel Géographique) à télécharger, ainsi que les résultats du recensement
 	Adresse de téléchargement COG :
-	<http://www.insee.fr/fr/methodes/nomenclatures/cog/telechargement.asp>
+		<http://www.insee.fr/fr/methodes/nomenclatures/cog/telechargement.asp>
 	Documentation COG
-	<http://www.insee.fr/fr/methodes/nomenclatures/cog/documentation.asp>
+		<http://www.insee.fr/fr/methodes/nomenclatures/cog/documentation.asp>
 	Licence des données INSEE (équivalent CC-BY-SA)
-	<http://www.insee.fr/fr/publications-et-services/default.asp?page=copyright.htm>
+		<http://www.insee.fr/fr/publications-et-services/default.asp?page=copyright.htm>
 	
 	Code source : licence BSD
 	copyright novembre 2010, Pierre-Alain Dorange
@@ -30,7 +30,7 @@ import time
 # External Python Modules (require installation)
 import xlrd				# handle Microsoft Excel (tm) file (XLS), copyright 2005-2006, Stephen John Machin, Lingfo Pty Ltd
 						# <http://www.lexicon.net/sjmachin/xlrd.htm>
-__version__="0.2"
+__version__="0.3"
 botName="InseeOsmBot"
 botVersion=__version__
 data_folder="./data/"
@@ -54,6 +54,7 @@ data_folder="./data/"
 	COM		: code commune (ajouter le code département avant)
 """
 
+# articles
 insee_article=("","","Le ","La ","Les ","L'","Aux ","Las ","Los ")
 	
 class Insee_COG():
@@ -218,8 +219,8 @@ class Commune(Insee_COG):
 class Population():
 	"""
 		Extraction des données population depuis le tableau XLS fournit par l'INSEE.
-		<http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-departements.asp?annee=2007>
-		Données 2007, valable à partir du 1er janvier 2010.
+		<http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-departements.asp?annee=2008>
+		Données 2008, valable à partir du 1er janvier 2011.
 		Le tableau XLS est décomposé en feuilles : Région, Département, Arrondissement, Canton et Communes.
 		Chacun comportant les références en codifucation COG et les données (population)
 		Les données population sont ainsi extraites et reliés au données COG précédement extraite.
@@ -286,7 +287,9 @@ class insee():
 			opener.addheaders = [('User-agent', "%s/%s" % (botName,botVersion))]
 			stream=opener.open(self.url)
 			if stream:
-				file=open(self.directory+self.filename,"wb")
+				fname="%s%s" % (self.directory,self.filename)
+				print fname
+				file=open(fname,"wb")
 				for line in stream:
 					file.write(line)
 				file.close()
@@ -313,7 +316,8 @@ class insee_txt(insee):
 	def scan(self):
 		try:
 			# traiter le fichier texte, ligne par ligne
-			file=codecs.open(self.filename,"r","iso8859-15")
+			fname="%s%s" % (self.directory,self.filename)
+			file=codecs.open(fname,"r","iso8859-15")
 			for line in file :
 				data=self.process(line)
 				if data!=None:
@@ -321,7 +325,7 @@ class insee_txt(insee):
 			# trier par index
 			self.data_list.sort(key=lambda item:item.get_index())
 		except:
-			print "error can't scan txt file",self.filename,":",sys.exc_info()
+			print "error can't scan txt file",fname,":",sys.exc_info()
 	
 	def process(self,line):
 		try:
@@ -342,7 +346,8 @@ class insee_zip(insee_txt):
 	def scan(self):
 		try:
 			# traiter le fichier zip ligne par ligne (dézipper el premier fichier de l'archive)
-			zfile=zipfile.ZipFile(self.filename,"r")
+			fname="%s%s" % (self.directory,self.filename)
+			zfile=zipfile.ZipFile(fname,"r")
 			list=zfile.namelist()
 			raw_data=zfile.read(list[0])
 			raw_list=raw_data.split('\n')
@@ -354,7 +359,7 @@ class insee_zip(insee_txt):
 			# trier par index
 			self.data_list.sort(key=lambda item:item.get_index())
 		except:
-			print "error can't scan zip file",self.filename,":",sys.exc_info()
+			print "error can't scan zip file",fname,":",sys.exc_info()
 	
 class insee_xls(insee):
 	"""
@@ -366,7 +371,8 @@ class insee_xls(insee):
 		
 	def scan(self,regions,departements,communes):
 		try:
-			book=xlrd.open_workbook(self.filename)
+			fname="%s%s" % (self.directory,self.filename)
+			book=xlrd.open_workbook(fname)
 			try:
 				# traiter le feuillet 0 (régions)
 				sheet=book.sheet_by_index(0)
@@ -425,7 +431,7 @@ class insee_xls(insee):
 			except IndexError:
 				pass
 		except:
-			print "error can't scan xls file",self.filename,":",sys.exc_info()
+			print "error can't scan xls file",fname,":",sys.exc_info()
 
 class insee_region(insee_txt):
 	def __init__(self,url):

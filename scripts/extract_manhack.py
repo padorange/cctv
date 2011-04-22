@@ -2,10 +2,13 @@
 # -*- coding: utf-8 -*-
 
 """
-	extract-manhack.py
-	----------------
+	extract_manhack.py
+	------------------
 	Extrait les données du tableur ManHack remanié des caméras et produit un fichier SQL à importer.
 	Utilise XLRD pour lire le tableur excel.
+	
+	Usage : 
+		python extract_manhack.py
 	
 	Pierre-Alain Dorange, november 2010
 	Code : BSD Licence

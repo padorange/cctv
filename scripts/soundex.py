@@ -3,25 +3,28 @@
 
 """
 	soundex.py
+	----------
 	Convert string into a soundex/phonex value corresponding to french prononciation
-	value can then be easily compared
-	Adapted to unicode
-	
-	soundex algo from
+	strings can then be easily compared
 	
 	phonex algo from Frédéric Brouard (31/03/1999)
 	http://www-lium.univ-lemans.fr/~carlier/recherche/soundex.html
+	Adapted to unicode
+	
+	usage :
+		python soundex.py [string]
+		return soundex or phonex string corresponding to the source string
 	
 	Pierre-Alain Dorange, november 2010, BSD Licence
 """
 
-import sys,string, re
+import sys, string, re
 
 allChar = (string.uppercase + string.lowercase).decode(sys.getfilesystemencoding())
-soundExChar= (u"91239129922455912623919292" * 2)
+soundExChar=	(u"91239129922455912623919292" * 2)
 accent=			u"'-éèêëàùçôöîïâñÉÈÊËÀÚÇÔÖÎÏÂÑ"
-soundEx=		u"  eeeeausooiianEEEEAUSOOIIAN"
 sans_accent=	u"  eeeeaucooiianEEEEAUCOOIIAN"
+soundEx=		u"  eeeeausooiianEEEEAUSOOIIAN"
 		
 def clean_str(str,intab,outtab):
 	""" remove accent from a string, to made comparaison easier """

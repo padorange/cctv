@@ -3,7 +3,7 @@
 
 """
 	extract_insee.py
-	
+	----------------
 	Récupère des données depuis le site de l'INSEE (Institut National de la Statistique et des études économiques)
 	Pour permettre une vérification d'intégrité des données OpenStreetMap (OSM) pour la France,
 	au niveau des communes, départements et régions.
@@ -11,19 +11,19 @@
 	
 	INSEE fournit des données COG (Code Officiel Géographique) à télécharger, ainsi que les résultats du recensement
 	Adresse de téléchargement COG :
-	<http://www.insee.fr/fr/methodes/nomenclatures/cog/telechargement.asp>
-	Adresse de téléchargement recencement 2007 (en vigueur au 1er janvier 2010)
-	<http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-departements.asp?annee=2007>
+		<http://www.insee.fr/fr/methodes/nomenclatures/cog/telechargement.asp>
+	Adresse de téléchargement recencement 2008 (en vigueur au 1er janvier 2011)
+		<http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-departements.asp?annee=2008>
 	Documentation COG
-	<http://www.insee.fr/fr/methodes/nomenclatures/cog/documentation.asp>
+		<http://www.insee.fr/fr/methodes/nomenclatures/cog/documentation.asp>
 	Licence des données INSEE (équivalent CC-BY-SA)
-	<http://www.insee.fr/fr/publications-et-services/default.asp?page=copyright.htm>
+		<http://www.insee.fr/fr/publications-et-services/default.asp?page=copyright.htm>
 	
 	Usage : python extract_insee.py [-download]
 		-download : force download data from insee web site, otherwise use local copy (if present)
 	
 	Code source : licence BSD
-	copyright novembre 2010, Pierre-Alain Dorange
+	copyright april 2011, Pierre-Alain Dorange
 """
 
 # Standard Python Modules
@@ -44,15 +44,16 @@ import xlrd				# handle Microsoft Excel (tm) file (XLS), copyright 2005-2006, St
 import insee
 import soundex
 
-__version__="0.3"
+__version__="0.4"	# updated for 2011 insee data
 botName="InseeOsmBot"
 botVersion=__version__
 baseUrl="http://www.insee.fr"
-regionUrl="http://www.insee.fr/fr/methodes/nomenclatures/cog/telechargement/2010/txt/reg2010.txt"
-deptUrl="http://www.insee.fr/fr/methodes/nomenclatures/cog/telechargement/2010/txt/depts2010.txt"
-commUrl="http://www.insee.fr/fr/methodes/nomenclatures/cog/telechargement/2010/txt/comsimp2010.zip"
-popUrl="http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/pages2009/xls/ensemble.xls"
-sqlDBFileName="./data/insee2007.sqlite3"
+insee_year=2008
+regionUrl="http://www.insee.fr/fr/methodes/nomenclatures/cog/telechargement/2011/txt/reg2011.txt"
+deptUrl="http://www.insee.fr/fr/methodes/nomenclatures/cog/telechargement/2011/txt/depts2011.txt"
+commUrl="http://www.insee.fr/fr/methodes/nomenclatures/cog/telechargement/2011/txt/comsimp2011.zip"
+popUrl="http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/pages2010/xls/ensemble.xls"
+sqlDBFileName="./data/insee2008.sqlite3"
 
 def main(args):
 	override=False	# par défaut, ne pas recharger les fichiers locaux (si ils existent)
@@ -84,7 +85,7 @@ def main(args):
 	communes.scan()
 	print "> %d communes, t=%.2f" % (len(communes.data_list),time.time()-clk)
 		
-	print "Analyse Populations 2007"
+	print "Analyse Populations %d" % insee_year
 	clk=time.time()
 	populations=insee.insee_population(popUrl)
 	populations.download(override)
@@ -116,11 +117,11 @@ def main(args):
 		c.execute('''SELECT * FROM regions WHERE id=%d;''' % r.region)
 		answer=c.fetchone()
 		if answer==None:
-			t=(r.region,r.name,sname,r.cheflieu,r.population,2007)
+			t=(r.region,r.name,sname,r.cheflieu,r.population,insee_year)
 			c.execute('''INSERT INTO regions (id,name,sname,center,population,year) VALUES (?,?,?,?,?,?);''',t)
 			nc=nc+1
 		else:
-			t=(r.name,sname,r.cheflieu,r.population,2007,r.region)
+			t=(r.name,sname,r.cheflieu,r.population,insee_year,r.region)
 			c.execute('''UPDATE regions SET name=?,sname=?,center=?,population=?,year=? WHERE id=?;''',t)
 			nu=nu+1
 	sql.commit()
@@ -131,11 +132,11 @@ def main(args):
 		c.execute('''SELECT * FROM departements WHERE id="%s";''' % d.dep)
 		answer=c.fetchone()
 		if answer==None:
-			t=(d.dep,d.region,d.name,sname,d.cheflieu,d.population,2007)
-			c.execute('''INSERT INTO departements (id,region,name,sname,center,population,year) VALUES (?,?,?,?,?,?);''',t)
+			t=(d.dep,d.region,d.name,sname,d.cheflieu,d.population,insee_year)
+			c.execute('''INSERT INTO departements (id,region,name,sname,center,population,year) VALUES (?,?,?,?,?,?,?);''',t)
 			nc=nc+1
 		else:
-			t=(d.region,d.name,sname,d.cheflieu,d.population,2007,d.dep)
+			t=(d.region,d.name,sname,d.cheflieu,d.population,insee_year,d.dep)
 			c.execute('''UPDATE departements SET region=?,name=?,sname=?,center=?,population=?,year=? WHERE id=?;''',t)
 			nu=nu+1
 	sql.commit()
@@ -146,15 +147,15 @@ def main(args):
 		c.execute('''SELECT * FROM communes WHERE id="%s";''' % cc.insee)
 		answer=c.fetchone()
 		if answer==None:
-			t=(cc.insee,cc.name,sname,cc.dep,cc.reg,cc.population,2007)
+			t=(cc.insee,cc.name,sname,cc.dep,cc.reg,cc.population,insee_year)
 			try:
-				c.execute('''INSERT INTO communes (id,name,sname,departement,region,population,year) VALUES ("%s","%s","%s",%d,%d,%d);''' % t)
+				c.execute('''INSERT INTO communes (id,name,sname,departement,region,population,year) VALUES ("%s","%s","%s","%s",%d,%d,%d);''' % t)
 			except:
 				print "\terror with",cc.insee,cc.nccenr
 				print sys.exc_info()
 			nc=nc+1
 		else:
-			t=(cc.name,sname,cc.dep,cc.reg,cc.population,2007,cc.insee)
+			t=(cc.name,sname,cc.dep,cc.reg,cc.population,insee_year,cc.insee)
 			c.execute('''UPDATE communes SET name="%s",sname="%s",departement="%s",region=%d,population=%d,year=%d WHERE id="%s";''' % t)
 			nu=nu+1
 	sql.commit()
