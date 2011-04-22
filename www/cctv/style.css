@@ -1,0 +1,37 @@
+	 
+/* body global style */
+body {
+	border: 0px;
+	margin: 0px;
+	padding: 10px;
+	height: 100%;
+	font-family: sans-serif;
+
+	 }	
+
+h1 {
+	font-size: larger;
+	font-style: normal;
+	font-weight: bold;
+}
+
+p {
+	font-size: medium;
+}
+
+th {
+	font-size: large;
+	font-weight: bold;
+	text-align:center;
+}
+
+td {
+	font-size: medium;
+	background-color:#CCCCCC;
+}
+
+.imageFloatRight
+{
+	float:right;
+ 	font-size: x-small;
+}

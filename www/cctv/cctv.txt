@@ -1,0 +1,986 @@
+point	title	description	icon
+49.5068900,-1.8472070	http://www.lahague-tourisme.com/index.php?&option=webcamVS&action=afficher_contenu&produit=lahague01	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+49.1958607,-0.3631979	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1925514,-0.3673875	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1915066,-0.3631335	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1936662,-0.3650218	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1940904,-0.3663951	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1915417,-0.3629243	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1959133,-0.3632838	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1935435,-0.3648341	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1931333,-0.3629082	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1944374,-0.3661054	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1946723,-0.3622431	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1931158,-0.3617173	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1943217,-0.3618354	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1951596,-0.3621304	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1917205,-0.3617978	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1952542,-0.3614920	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1955382,-0.3611755	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1918572,-0.3618085	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1946618,-0.3624684	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1955908,-0.3611755	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1955347,-0.3620285	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1949037,-0.3616047	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1890280,-0.3633374	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1909527,-0.3671461	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1903322,-0.3652418	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1903076,-0.3633910	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1910369,-0.3620338	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1911490,-0.3611273	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.1173323,-1.6775401	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.1193874,-1.6669908	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.7932489,-4.2828072	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.6025184,-0.9980989	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.6964310,-0.3311480	CCTV	operator: Hennessy</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6964282,-0.3311505	CCTV	operator: Hennessy</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6966373,-0.3308158	CCTV	operator: Hennessy</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6971171,-0.3353214	CCTV	operator: Hennessy</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6973672,-0.3317102	CCTV	operator: Hennessy</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6970294,-0.3353668	CCTV	operator: Hennessy</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6964378,-0.3315153	CCTV	operator: Hennessy</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6964548,-0.3325530	CCTV	operator: Hennessy</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6968714,-0.3322576	CCTV	operator: Hennessy</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6968563,-0.3322707	CCTV	operator: Hennessy</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6973641,-0.3317167	CCTV	operator: Hennessy</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6965117,-0.3316516	CCTV	operator: Hennessy</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6966347,-0.3317589	CCTV	operator: Hennessy</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6968645,-0.3322638	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.6930211,-0.3290145	CCTV	operator: Gino Cappucino</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6930389,-0.3291485	CCTV	operator: Gino Cappucino</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6948572,-0.3258768	CCTV	operator: Banque de France</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6949165,-0.3259113	CCTV	operator: Banque de France</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6920583,-0.3348236	CCTV	operator: Martell</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6867995,-0.3394405	CCTV	operator: E. Leclerc</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6871266,-0.3388397	CCTV	operator: E. Leclerc</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6871044,-0.3389034	CCTV	operator: E. Leclerc</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6869834,-0.3386848	CCTV	operator: E. Leclerc</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6869339,-0.3386249	CCTV	operator: E. Leclerc</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6869339,-0.3386249	CCTV	operator: E. Leclerc</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6871044,-0.3389034	CCTV	operator: E. Leclerc</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6869834,-0.3386848	CCTV	operator: E. Leclerc</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6861880,-0.3394792	CCTV	operator: E. Leclerc</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6858473,-0.3390723	CCTV	operator: E. Leclerc</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6865276,-0.3397793	CCTV	operator: E. Leclerc</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6858473,-0.3390723	CCTV	operator: E. Leclerc</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6861880,-0.3394792	CCTV	operator: E. Leclerc</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6857158,-0.3393686	CCTV	operator: E. Leclerc</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6857158,-0.3393686	CCTV	operator: E. Leclerc</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6853025,-0.3287674	CCTV	operator: Crédit Agricole</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6837214,-0.3048708	CCTV	operator: Auchan</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6832597,-0.3045752	CCTV	operator: Auchan</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6835012,-0.3046086	CCTV	operator: Auchan</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6828369,-0.3068145	CCTV	operator: Auchan</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6850679,-0.3045120	CCTV	operator: Auchan</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6827414,-0.3071353	CCTV	operator: Auchan</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6829553,-0.3051653	CCTV	operator: Auchan</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6835909,-0.3065106	CCTV	operator: Auchan</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6827414,-0.3071353	CCTV	operator: Auchan</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6828369,-0.3068145	CCTV	operator: Auchan</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6835909,-0.3065106	CCTV	operator: Auchan</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6829553,-0.3051653	CCTV	operator: Auchan</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6832597,-0.3045752	CCTV	operator: Auchan</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6850679,-0.3045120	CCTV	operator: Auchan</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6837214,-0.3048708	CCTV	operator: Auchan</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.6835012,-0.3046086	CCTV	operator: Auchan</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+45.0012483,-1.1980472	Avenue Henri Seguin	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.0014642,-1.2013709	Allée Pierre Ortal/bld de la plage	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.0013435,-1.2000324	Allée Pierre Ortal	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+50.6650235,3.1022663	CCTV	operator: Ville de Marcq-en-Baroeul</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+49.4942899,0.5685090	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.4886901,0.5706541	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.4452546,1.0868604	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+49.4483487,1.0942051	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+49.4445317,1.0891051	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+49.4439733,1.0962603	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+49.4428572,1.0873807	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+49.4435454,1.0882209	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+49.4425715,1.0886792	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+49.4423372,1.0936998	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+49.4431715,1.0936691	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+49.4410671,1.0929308	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+49.4417929,1.0905249	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+49.4426201,1.0927023	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+49.4435261,1.0999505	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+49.4303872,1.0850163	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+49.4309434,1.0863350	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+49.1562118,2.4434891	CCTV	operator: Carrefour	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.1560888,2.4442514	CCTV	operator: Carrefour	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.9966906,2.2539560	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.9969527,2.2587084	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.9963204,2.2549497	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.9946656,2.2531954	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.9966519,2.2555267	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.9916260,2.2582090	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.9896734,2.2630201	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.9923627,2.2595271	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.9931193,2.2592323	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.9916260,2.2582090	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.9865447,2.2472943	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.9851948,2.2564130	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.9855353,2.2564433	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.9698991,2.2632314	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.9027267,2.1928995	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.9021738,2.1933970	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.9027544,2.1927425	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.9027715,2.1927759	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.9024363,2.1931903	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.9027071,2.1926679	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.9019758,2.1932637	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.9025839,2.1930786	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.9009890,2.1896208	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.9008838,2.1894324	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.9005718,2.1889441	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8951877,2.1963801	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8951475,2.1963126	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8966754,2.1955275	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8967022,2.1955744	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8966842,2.1952716	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8996676,2.1953449	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8946674,2.1906942	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8953393,2.1956466	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8953301,2.1955377	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8951663,2.1956198	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8957953,2.1959392	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8971764,2.1943285	CCTV	operator: ED</br>type: indoor	http://www.leretourdelautruche.com/map/cctv/cctv_indoor.png
+48.8972386,2.1941987	CCTV	operator: ED</br>type: indoor	http://www.leretourdelautruche.com/map/cctv/cctv_indoor.png
+48.8972112,2.1942529	CCTV	operator: ED</br>type: indoor	http://www.leretourdelautruche.com/map/cctv/cctv_indoor.png
+48.8971963,2.1942869	CCTV	operator: ED</br>type: indoor	http://www.leretourdelautruche.com/map/cctv/cctv_indoor.png
+48.8941476,2.1900397	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8925998,2.1890240	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8897078,2.1963492	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8944142,2.1921578	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8929302,2.1881936	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8932953,2.1888574	CCTV	type circulation routiere</br>type: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8940518,2.1958950	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8943976,2.1896824	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8943892,2.1897042	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8941029,2.1873948	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8937561,2.1878022	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8940317,2.1959683	CCTV	operator: Groupe Caisse d'épargne</br>type: indoor	http://www.leretourdelautruche.com/map/cctv/cctv_indoor.png
+48.8913564,2.1954326	CCTV	operator: Franck Provost</br>type: indoor	http://www.leretourdelautruche.com/map/cctv/cctv_indoor.png
+48.8923404,2.1889177	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8913405,2.1953744	CCTV	operator: Franck Provost</br>type: indoor	http://www.leretourdelautruche.com/map/cctv/cctv_indoor.png
+48.8771088,2.1723911	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.9069134,2.2190448	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.9034247,2.2037399	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.9034084,2.2037054	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.9068259,2.2204476	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.9074283,2.2200843	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.9057047,2.2221596	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.9006953,2.2253789	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.9007241,2.2254226	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.9049343,2.2203254	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.9054905,2.2215867	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8972564,2.2191545	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8985631,2.2144797	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8982399,2.2154970	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8906921,2.1994319	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8902397,2.1983869	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8926392,2.2049849	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8975443,2.2385438	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8998609,2.2383817	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.9003857,2.2425600	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.9005172,2.2608323	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.9075293,2.2835309	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.9061290,2.2837997	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.9022074,2.2676967	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.9034931,2.2679481	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.9050090,2.2690210	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.9026034,2.2747988	Place Jean Mermoz	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.9043640,2.2829340	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.9053300,2.2827820	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.9011460,2.2762320	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8952597,2.2500356	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8979208,2.2474384	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8955048,2.2575240	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8966867,2.2567075	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8968454,2.2619359	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8988120,2.2567130	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8946281,2.2453320	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8943500,2.2446311	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8905882,2.2513719	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8938289,2.2532781	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8917338,2.2527098	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8892986,2.2528076	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8971435,2.2774607	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8986500,2.2753770	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8886653,2.2106052	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8891297,2.2101073	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8886656,2.2106455	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8891073,2.2100981	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8784658,2.2146782	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8782880,2.2152376	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8856658,2.2230522	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8858302,2.2196658	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8857684,2.2217234	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8858631,2.2197114	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8851448,2.2235954	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8851975,2.2234827	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8859202,2.2197814	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8851850,2.2237404	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8879664,2.2331392	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8770361,2.2171109	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.9249146,2.3537804	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.9250702,2.3541907	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.9251894,2.3538250	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.9191805,2.3510207	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.9148112,2.3492925	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.9213248,2.3630906	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.9151653,2.3520205	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.9069760,2.2858340	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8991815,2.2937243	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8992711,2.2941050	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8931562,2.3039877	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8793864,2.3225314	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8737292,2.2951979	CCTV	operator: Préfecture de Paris</br>type: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8677779,2.2938951	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8678010,2.2938182	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8677950,2.2938095	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8729875,2.3168648	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8727767,2.3179481	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8729563,2.3166923	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8726861,2.3179721	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8729862,2.3168574	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8729876,2.3168663	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8722868,2.3180487	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8725198,2.3180021	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8722251,2.3180573	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8721635,2.3180964	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8721111,2.3181290	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8714159,2.3210143	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8724470,2.3181360	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8715700,2.3204323	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8721147,2.3181267	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8724489,2.3181358	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8718336,2.3182995	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8715688,2.3200404	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8723388,2.3181489	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8716165,2.3203316	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8721870,2.3182362	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8869538,2.3394777	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8870153,2.3395808	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8758380,2.3464375	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8759416,2.3461850	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8696042,2.3403839	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8696963,2.3404343	CCTV	operator: LCL</br>amenity: atm	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8696864,2.3404289	CCTV	operator: LCL</br>amenity: atm	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8693612,2.3421145	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8686874,2.3417899	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8696034,2.3409700	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8693661,2.3421104	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8686848,2.3417835	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8696046,2.3409738	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8688955,2.3407109	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8690156,2.3406024	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8690106,2.3406065	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8676673,2.7805398	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8454803,2.2506026	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8480273,2.2587985	CCTV	amenity: clock</br>type: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8454874,2.2558178	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8422925,2.2506795	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8426671,2.2488226	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8447277,2.2574608	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8387180,2.2518362	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8386876,2.2545563	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8442727,2.2812455	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8442624,2.2811876	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8273169,2.2792866	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8005319,2.1713013	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8005515,2.1713011	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8205117,2.2848207	CCTV	amenity: camera	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8199549,2.2839311	CCTV	amenity: camera	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8645849,2.2971238	CCTV	note: on the roof	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8655195,2.3029983	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8602946,2.3247818	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8546030,2.2879527	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8624585,2.3469792	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8623395,2.3469712	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8624651,2.3469562	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8625506,2.3469141	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8610735,2.3356185	CCTV	video surveillancetype: indoor	http://www.leretourdelautruche.com/map/cctv/cctv_indoor.png
+48.8605898,2.3521542	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8606671,2.3521963	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8593004,2.3564526	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8593003,2.3564492	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8590190,2.3570722	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8594285,2.3576850	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8495156,2.3446878	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8492449,2.3445322	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8481240,2.3442142	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8495350,2.3446736	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8488841,2.3685981	CCTV	video surveillancetype: indoor	http://www.leretourdelautruche.com/map/cctv/cctv_indoor.png
+48.8439418,2.3088143	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8440310,2.3089101	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8386051,2.3156797	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8446717,2.3395874	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8418051,2.3558473	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8416326,2.3559163	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8420432,2.3557541	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8442251,2.3791357	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8441489,2.3781926	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8439943,2.3792165	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8436974,2.3793752	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8443170,2.3793440	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8439936,2.3792178	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8438881,2.3788684	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8442261,2.3791370	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8436418,2.3793355	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8209748,2.2858310	CCTV	amenity: camera	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.7636163,2.1673243	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.7029120,2.1814067	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.7019201,2.1820354	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.7002679,2.1809966	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8551415,2.4899419	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8352589,2.5423273	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8348419,2.5409620	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8355613,2.5429948	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8353569,2.5408271	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8320695,2.5347971	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8242097,2.5322339	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8263025,2.5421779	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8253570,2.5430764	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8463177,2.5533982	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8477015,2.5527287	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8491305,2.5523596	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.8071157,2.4718487	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8047214,2.4853565	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.7980568,2.4859299	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.7969783,2.4863521	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.7645098,2.4887707	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.7644395,2.4899245	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.6330356,2.4124791	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6339680,2.4086654	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6332295,2.4128423	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6310320,2.4126653	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6309306,2.4151333	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6300074,2.4166419	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6285948,2.4179970	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6264989,2.4203857	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6296565,2.4229282	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6262680,2.4235708	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6233508,2.4015249	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6209392,2.4050819	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6182562,2.4080689	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6196882,2.4086162	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6101571,2.4035057	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6157926,2.4202689	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.4149073,2.4567933	Le Cyclop	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.9197674,1.9036016	Tram Libération	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.9194351,1.9035871	Garage à vélo Libération	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.9183505,1.9026228	Parc relais tram	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.9191140,1.9025304	Coin ED	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.9149618,1.9003898	Bld Québec/Tram	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.9161350,1.9012773	Avenue du Général Patton	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.9150784,1.9035175	2 Allée Pierre de Coubertin	note: On top of the building	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.9011572,1.9061918	Place de la République	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.9005887,1.9063289	Place Louis XI/Rue Louis Roguet	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.9007594,1.9028961	Place de Gaulle 1	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.9012381,1.9018735	Place de Gaulle 1	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.9027218,1.9038265	Place du Martroi	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.9007415,1.9106136	Rue Pothier	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.9008402,1.9090996	Parisie/Dolet	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+47.9004149,1.9131314	Rue de Bourgogne 1	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.8999322,1.9059405	Rue des Trois Clefs/Rue de Bourgogne	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.8999457,1.9063596	Rue Louis Roguet/Rue de Bourgogne	note: Need to recheck	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.9001861,1.9104300	Préfecture	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.8996522,1.9099225	Rue saint germain 1	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.8996684,1.9099681	Rue saint Germain 2	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.9000720,1.9085631	Temple	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.9000090,1.9074076	Rue de Bourgogne 260@258	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.8994613,1.9065266	Rue de la Cholerie/Place du Châtelet	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.8984854,1.9093871	10-8 rue de la Poterne	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.8984131,1.9083451	Place de la Loire sur la Halle	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.8987383,1.9093063	Rue de la Poterne	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.8985275,1.9080666	Jardin de la Charpenterie	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.8979894,1.9109306	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.9003519,1.9123806	Rue de Bourgogne 2 139 141	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.8980180,1.9121834	River side in front of number 12	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.0010905,3.7198977	CCTV	operator: Maire de Saint-Florentin</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.0025562,3.7293714	CCTV	operator: Maire de Saint-Florentin</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.0005091,3.7272860	CCTV	operator: Maire de Saint-Florentin</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.0016296,3.7250280	CCTV	operator: Maire de Saint-Florentin</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+47.9987515,3.7184757	CCTV	operator: Maire de Saint-Florentin</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+49.6149980,6.1091107	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+49.6124955,6.1235231	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+49.6105184,6.1329116	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+49.3710370,6.7076048	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.2404049,7.0004820	CCTV	video surveillancetype: traffic	http://www.leretourdelautruche.com/map/cctv/cctv.png
+49.2768835,7.0330876	CCTV	video surveillancetype: traffic	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8241719,7.7303274	Caméra de surveillance	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.8240760,7.7294861	Caméra de surveillance	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.8251217,7.7322473	Caméra de Surveillance	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+48.6488400,7.7333900	A4/D63	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6466200,7.7334600	A4/D63	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6420900,7.7307300	A4 / Proche de la rue Alexandre Volta (Reichstett)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6381100,7.7276100	A4/D263	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6271400,7.7242400	A4 / Proche de la rue du Dépôt (Souffelweyersheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6195200,7.7261600	A4 / Proche du Lerchenberg	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6148300,7.7337900	Angle de l'avenue de Périgueux et de la rue Vendenheim (Bischheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6106000,7.7338200	Angle de la route du Général de Gaulle et avenue de la 2ème Division blindée (Schiltigheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6040300,7.7173800	Place François Arago / Rue Lavoisier (Cronenbourg)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6049700,7.7175300	Place François Arago / Rue Paracelse (Cronenbourg)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6053200,7.7194200	Entre les rues Kepler Augustin Fresnel / Espace vert (Cronenbourg)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6042500,7.7288500	A4 / Proche de l'ancien centre de tri de la poste	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5870500,7.6668700	Carrefour des rues du Général Leclerc et des Seigneurs (Wolfisheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5991400,7.7079300	Place St-Antoine / Rue de Berstett (Cronenbourg)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6004000,7.7114100	Rue de Mittelhausbergen (Cronenbourg)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5927400,7.6982100	Rue Lamartine / Tram Maillon (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5925400,7.6979500	Angle de la rue Lamartine et de l'avenue Corneille (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5950800,7.6943600	Angle de l'avenue Corneille et de la rue Baden Powell (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5978900,7.6912400	Toit de la Ligue d'Alsace football (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5953800,7.6972900	Place Byron (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5970300,7.7002800	Avenue Tolstoï / Le Galet (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5943500,7.7000600	Angle des avenues Cervantes et Racine (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5949700,7.6966000	Place Buchner / Ecole Mat. Jacqueline  (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5952800,7.6932300	Rue Baden Powell (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5963300,7.7014300	Maille Catherine / Derrière le Galet (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5951100,7.7070800	Angle de la rue Paul Valery et de l'avenue Molière (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5944800,7.7038200	Avenue Shakespeare (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5950000,7.7100800	Angle de la route d'Oberhausbergen et de la rue de Stutzheim (Cronenbourg)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5979600,7.7097600	Place St-Antoine / Rue de Hurtigheim (Cronenbourg)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5937500,7.7032500	Hôpital / Entre Avenues Racine et Shakespeare (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5931000,7.7108600	Avenue Molière (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6022800,7.7200100	Angle des rues Lavoisier et du Rieth (Cronenbourg)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6033400,7.7134300	Place de Haldenbourg (Cronenbourg)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5912800,7.6974200	Auchan / Place / Eglise / Centre culturel (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5919100,7.6965100	Auchan / Bibliothèque (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5919300,7.7039200	Angle des avenues Racine et Dante / Tram / 1 (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5918700,7.7043500	Angle des avenues Racine et Dante / Tram / 2 (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5911700,7.7090900	Avenue Racine et Rue Calmette (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5906300,7.7063600	Place Erasme / parking derrière la CAF (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5888200,7.7074900	Boulevard de la Fontaine (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5915900,7.7067400	Tram Hôpital de Hautepierre (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5902300,7.7032600	Place Montaigne / Ecole Eleonore (Hautepierre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5854800,7.6947900	Parc des Poteries / Lycée Rudloff (Koenigshoffen)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5917400,7.7206600	Angle de la route d'Oberhausbergen et de la rue Marcel Proust (Cronenbourg)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5917100,7.7211800	Angle de la route d'Oberhausbergen et de la rue de l'Anneau (Cronenbourg)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5913400,7.7252400	Parking du tram Rotonde / 1 (Cronenbourg)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5911700,7.7265600	Parking du tram Rotonde / 2 (Cronenbourg)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5890300,7.7302600	A35 / Proche de la nécropole nationale (Rocade Ouest)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5883300,7.7251900	Angle des rues Pierre Nuss et Mail Charles Pierre / Skate Park (Cronenbourg)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5920800,7.7333400	Rue du Marché gare (Cronenbourg)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5891800,7.7251900	Rue Pierre Nuss / Skate Park / Patinoire (Cronenbourg)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5924400,7.7324000	Square des Malgré-nous / Dépôt CTS (Cronenbourg)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5885200,7.7239500	Parking Skate Park / Gymnase Rotonde (Cronenbourg)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5918900,7.7247000	Tram Rotonde (Cronenbourg)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5855400,7.7252400	A35/A351 / Proche de la rue de Zielbaum (Rocade Ouest)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5820300,7.7324900	Angle rue du Faubourg national et boulevard de Nancy (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5826900,7.7237600	A35/A351 / Proche des stades (Rocade Ouest)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5638200,7.6893900	Angle des rues d'Eckbolsheim et de Lorraine (Lingolsheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5755900,7.6908100	Stade / Collège M. & K. Krafft (Eckbolsheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5798800,7.7174600	Route des Romains (Koenigshoffen)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5807200,7.7276300	Angle de la route de Koenigshoffen et de la rue des Remparts (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5784700,7.7311400	Angle du boulevard de Lyon et de la rue d'Obernai (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5763000,7.7316100	Angle du boulevard de Lyon et de la rue de Molsheim (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5794700,7.7308900	Angle du boulevard de Lyon et de la rue de Wasselonne (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5795100,7.7307500	Angle du boulevard de Lyon et de la rue de Wasselonne (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5761800,7.7292700	Rue du Hohwald / Laiterie Taps Gare (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5805800,7.7277600	Angle de la route de Koenigshoffen et de la rue des Remparts (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5764000,7.7317100	Angle du boulevard de Lyon et de la rue de Molsheim (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5748800,7.7262000	Route de Schirmeck / Tram Montagne verte (Montagne verte)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5648100,7.7063500	Place d'Ostwald (Montagne verte)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5675400,7.7209200	Angle des rues Martin Schongauer et Franz Hals (Elsau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5664800,7.7220300	Rue Matthias Grünewald / 1 (Elsau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5662300,7.7201900	Rue Martin Schongauer (Elsau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5658800,7.7235500	Place Nicolas Poussin / Rue Rembrandt (Elsau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5704600,7.7306400	Echangeur A35/N4 (Rocade Ouest)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5687000,7.7272500	Rue de l'Unterelsau (Elsau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5666600,7.7248200	Rue Matthias Grünewald / 2 (Elsau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5675700,7.7265300	Angle des rues Martin Schongauer et Watteau (Elsau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5625600,7.7335800	A35 / Proche de la rue du Doubs (Rocade Ouest)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5586800,7.6869800	Angle des rues Foch et Laegert (Lingolsheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5570800,7.6820500	Rue Foch / Place de la Liberté / Mairie (Lingolsheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5510600,7.6891600	Angle des rues d'Ostwald et Tiergaertel (Lingolsheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5558300,7.6926400	Rue des Hirondelles / Rond-point (Lingolsheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5514400,7.6917200	Tram Alouettes (Lingolsheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5538800,7.6910800	Rue des Hirondelles / Ecole (Lingolsheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5464200,7.7270000	A35/D468 (Rocade Ouest)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5394100,7.7197000	A35 / Proche du Nachtweid (Rocade Ouest)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5331600,7.6978400	A35 / Lac Achard (Rocade Ouest)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5358400,7.7046100	A35 / Proche de la rue de Provence (Rocade Ouest)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5364600,7.7122600	A35 / Proche de la rue d'Erstein (Rocade Ouest)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5297800,7.6933200	Echangeur A35/D1083 (Rocade Ouest/Sud)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5298000,7.7112100	Angle de la route de Lyon et de la rue du 23 Novembre (Illkirch)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5274100,7.7098600	Angle de la route de Lyon et de la rue de la Poste (Illkirch)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5289200,7.7321400	Angle des rues Lixenbuhl et de l'Industrie (Illkirch)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5298900,7.7253900	Angle des rues Lixenbuhl et d'Alsace (Illkirch)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5239800,7.6960600	D1083 / Face au parking de l'hypermarché (Rocade Sud)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5265100,7.7093200	Angle de la route de Lyon et de la rue du Cygne (Illkirch)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5169100,7.6996000	D1083 / Rond-point / Route de Lyon (Rocade Sud)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5220000,7.7206700	Angle de la rue des Vignes et de l'avenue Malraux (Illkirch)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6410500,7.7619000	Au bout de la rue de Picardie (Reichstett)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6287700,7.7583900	Tram Hoenheim Gare / 1 (Hoenheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6261700,7.7604900	Rue du Chêne / City Stade (Hoenheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6272000,7.7593000	Tram Hoenheim Gare / 2 (Hoenheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6274500,7.7588500	Tram Hoenheim Gare / Route de la Wantzenau (Hoenheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6227900,7.7650100	Rue d'Andlau (Hoenheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6240800,7.7635000	Angle des rues du Stade et du Chêne (Hoenheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6223200,7.7671700	Rue du Ried / Crèche (Hoenheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6207300,7.7692100	Rue du Marais / Supermarché le Ried (Hoenheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6214300,7.7679500	Angle avenue du Général de Gaulle et rue du Lichtenberg (Hoenheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6226700,7.7683900	Rue du Ried / Supermarché Le Ried (Hoenheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6193600,7.7645800	Angle avenue du Général de Gaulle et rue du Lichtenberg (Hoenheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6163300,7.7627800	Rue du Guirbaden / Parc (Bischheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6174700,7.7628000	Rue du Guirbaden / CSC / Vivre ensemble (Bischheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6161400,7.7649000	Allée Blaise Pascal (Bischheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6172900,7.7632700	Rue du Guirbaden / CSC / CUS Habitat (Bischheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6147000,7.7773900	Angle des rues Hechner et de la Thur (Cité de l'Ill)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6169600,7.7678700	Angle de la rue du Marais et de l'avenue De Gaulle (Bischheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6171600,7.7730700	Angle des rues de la Lauch et de la Lièpvrette (Cité de l'Ill)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6154000,7.7709300	Angle des rues de la Kirneck et de la Magel (Cité de l'Ill)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6162800,7.7752100	Angle des rues de la Doller et de la Lièpvrette (Cité de l'Ill)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6146500,7.7698300	Rue de la Magel / Stade Paul Nicolas (Cité de l'Ill)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6110800,7.7379100	Angle des rues d'Erstein et Sébastien Brandt (Schiltigheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6144400,7.7389100	Angle de l'avenue de Périgueux et de la rue Lamartine (Bischheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6125000,7.7672100	Angle de la rue du Marais et de la rue de la Robertsau (Bischheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6127000,7.7671600	Angle des rues du Marais et de la Robertsau (Bischheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6095100,7.7653900	Angle de la rue du Marais et rue de Bretagne (Schiltigheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6141300,7.7739900	Parking des environs des rues de la Doller et de la Fecht (Cité de l'Ill)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6131300,7.7729600	Angle des rues de l'Ill et de la Doller (Cité de l'Ill)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6134200,7.7712400	Angle des rues de l'Ill et de la Lauch (Cité de l'Ill)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6134500,7.7737400	Arrière de la Poste / Supermarché / CSC près de la rue de la Doller (Cité de l'Ill)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6125700,7.7756600	Angle des rues de l'Ill et Hechner (Cité de l'Ill)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6112100,7.7811900	Angle des rues de la Wantzenau et de la Papèterie (Robertsau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6744668,7.9264107	Paketshop Kamera	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.6004300,7.7351200	A4 / Proche de la rue de l'Abattoir	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6004500,7.7545100	Tram Rives de l'Aar (Wacken)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5989200,7.7526200	Feu à la sortie de l'autoroute (Schiltigheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5972500,7.7397700	A35 / Proche des jardins du Hochweg (Rocade Ouest)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5932800,7.7526500	Angle des rues Jacques Kablé et de Bitche (Wacken)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5967000,7.7559700	Avenue Herrenschmidt / Hilton (Wacken)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.6031400,7.7568300	Avenue Mendès-France / Rue du Tribunal (Schiltigheim)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5980400,7.7594600	Palais de la musique et des congrès / Parking (Wacken)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5982821,7.7605533	Place du Wacken / Sud (Wacken)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5992400,7.7611500	Place du Wacken / Nord (Wacken)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5996900,7.7677800	Pont devant le Parlement européen (Wacken)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5935300,7.7583500	Place de Bordeaux (Wacken)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5937400,7.7579900	Place de Bordeaux / Rue Jacques Kablé (Wacken)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5966727,7.7592399	Angle avenue Schutzenberger et rue Richard Strauss (Wacken)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5949800,7.7581700	Place de Bordeaux / Holiday Inn (Wacken)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5973200,7.7589700	Palais de la musique et des congrès / Entrée (Wacken)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5971000,7.7766800	Angle de l'allée Cassin et de la rue Boecklin (Robertsau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5925600,7.7700700	Angle de l'allée Spach et de l'avenue de l'Europe (Orangerie-Quinze)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5949500,7.7732200	Avenue de l'Europe / Parc de l'Orangerie (Orangerie-Quinze)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5877800,7.7416000	Rue de Sébastopol (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5877800,7.7409300	Gare routière (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5923100,7.7378600	A35/A350 (Rocade Ouest)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5880900,7.7394000	Boulevard du Président Wilson / Arrière des Halles (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5875400,7.7385700	Angle de la rue du Faubourg de Saverne et du boulevard du président Wilson (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5924400,7.7459700	Rue Jacques Kablé (Wacken)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5900000,7.7555900	Avenue de la Paix / Synagogue (Wacken)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5886800,7.7549000	Angle des avenues des Vosges et de la Paix (République)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5908506,7.7464560	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5826500,7.7437400	Angle des rues du 22 Novembre et du Fossé des Tanneurs (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5817900,7.7430000	Angle de la Grand'Rue et de la rue du Fossé des tanneurs (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5837600,7.7418100	Place du Vieux Marché aux vins (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5839500,7.7344300	Place de la Gare / Boulevard de Metz (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5827200,7.7393600	Début de la Grand'Rue (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5824800,7.7401700	Angle de la Grand Rue et de la rue des Lentilles (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5823800,7.7356500	Rue du Faubourg national (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5843000,7.7446400	Place de l'Homme de fer (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5858100,7.7430800	Halles / Centre commercial (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5837300,7.7416400	Place du Vieux Marché aux vins (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5815800,7.7402000	Rue du Bain aux plantes / Parking de la Petite France (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5841400,7.7411000	Angle du pont de Saverne et du quai Desaix (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5842900,7.7361200	Place de la Gare / Rue du Maire Kuss (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5858100,7.7433600	Halles / Pont de Paris (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5846200,7.7441700	Angle des rues du Noyer et Thomann (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5826500,7.7436100	Angle des rues du 22 Novembre et du Fossé des tanneurs (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5839000,7.7345400	Place de la Gare (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5832500,7.7394900	Angle du pont Kuss et du quai Desaix (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5834100,7.7384800	Angle de la rue du Maire Kuss et du quai St-Jean (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5832200,7.7452000	Place Kléber / Fnac (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5839900,7.7355200	Place de la Gare / Petite rue de la Course (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5853100,7.7420000	Halles / Station de Tram (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5853500,7.7436700	Angle du quai de Paris et du pont de Paris (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5828600,7.7417200	Angle des rues du 22 Novembre et des Aveugles (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5825700,7.7381800	Pont National (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5823900,7.7357800	Angle rues du Faubourg national et petite rue de la Course (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5838500,7.7445400	Place de l'Homme de fer / Rue du Fossé des Tanneurs (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5855100,7.7362500	Place de la Gare / Boulevard du Président Wilson (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5844300,7.7346800	Place de la Gare / Gare (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5848465,7.7521469	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.5827359,7.7526290	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.5855400,7.7519700	Place Broglie / Opéra (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5829400,7.7478200	Place du Temple Neuf (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5843700,7.7491100	Place Broglie / Rue du Dôme (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5832200,7.7467700	Place Kléber / Grandes Arcades (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5850900,7.7545100	Angle du quai Marnésia et de la rue des Récollets (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5865800,7.7536000	Place de la République / Tram (République)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5861300,7.7470200	Rue de la Nuée Bleue (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5857200,7.7472800	Rue de la Nuée Bleue (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5851000,7.7508800	Place Broglie / Rue de la Comédie (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5817900,7.7489100	Rue des Hallebardes (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5870200,7.7486400	Angle du quai Schoepflin et de la rue de la Fonderie (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5859500,7.7543900	Place de la République / Passerelle (République)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5869800,7.7548900	Place de la République / Avenue de la Liberté (République)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5827000,7.7508600	Angle des rues des Hallebardes et des Juifs (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5823100,7.7482300	Place du Marché Neuf (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5844400,7.7454600	Rue de la Mésange / Aubette (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5845900,7.7485800	Place Broglie / Rue de la Nuée bleue (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5831200,7.7546300	Place Saint-Etienne (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5839400,7.7495700	Rue du Dôme (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5821400,7.7505300	Place de la Cathédrale / Office du Tourisme (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5838700,7.7465100	Place Kléber / Aubette (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5818900,7.7455900	Rue Sainte-Hélène (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5909500,7.7648100	Boulevard Jacques Preiss / Pont (Wacken)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5896300,7.7750200	Angle du boulevard de l'Orangerie et de la rue de Verdun (Orangerie-Quinze)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5842300,7.7589100	Boulevard de la Victoire (Krutenau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5854300,7.7606400	Devant le Palais universitaire (Krutenau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5841400,7.7588400	Boulevard de la Victoire / Gallia (Krutenau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5862700,7.7631700	Angle de l'allée de la Robertsau et de l'avenue de la Forêt Noire (Orangerie-Quinze)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5853700,7.7604200	Quai du Maire Dietrich / Place de l'Université (Krutenau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5800100,7.7449900	Place St-Thomas (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5813700,7.7378600	Angle de la rue Ste Marguerite et du pont de l'Abattoir (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5782200,7.7344300	Rue de Molsheim / Tram Musée d'art moderne (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5791000,7.7351400	Angle rues de Molsheim et de Wasselonne (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5799800,7.7451800	Place Saint-Thomas (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5763300,7.7358300	Rue de Saales (Gare)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5791000,7.7401700	Angle des ponts couverts et de la rue du Cygne (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5777600,7.7383600	Angle de la rue du Cygne et du pont Mathis (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5813600,7.7387100	Angle du pont de l'Abattoir et du quai Turckheim (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5783428,7.7494773	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.5815100,7.7525200	Rue de la Râpe (mars 2010) (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5815400,7.7484400	Place Gutenberg (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5805100,7.7469500	Angle des rues des Serruriers et de la Division Leclerc (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5811700,7.7463600	Angle de la Grand'Rue et de la rue de la Division Leclerc (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5793900,7.7508700	Pont du Corbeau (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5803400,7.7555300	Rue des Bateliers (Krutenau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5802100,7.7490800	Rue des Tonneliers / Place des Tripiers (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5783236,7.7494667	Rue de la Ière Armée (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5797100,7.7538200	Rue Sainte-Madeleine (Krutenau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5802600,7.7511400	Rue du Maroquin / Musée historique (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5786100,7.7486100	Pont St-Nicolas (Krutenau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5811800,7.7503000	Place de la Cathédrale / Poste (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5797300,7.7479100	Angle des rues de la Division Leclerc et de l'Ail (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5814600,7.7484600	Place Gutenberg (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5812500,7.7515100	Place du Château (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5793000,7.7508500	Place du Corbeau (Krutenau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5745100,7.7379000	Angle du quai Louis Pasteur et du pont du Heiritz (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5749600,7.7426800	Hôpital civil / Nouvelle entrée (Centre)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5751000,7.7534100	Pont de la Bourse (Neudorf)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5739600,7.7518700	Centre administratif / entrée arrière du parking (Neudorf)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5740400,7.7534800	Place de l'Etoile / Centre administratif / 1 (Neudorf)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5742800,7.7498100	Pont de la Porte de l'Hôpital (Neudorf)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5746400,7.7497600	Angle du quai Fustel de Coulanges et de la rue de la Porte de l'Hôpital (Neudorf)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5741600,7.7552000	Place de l'Etoile / Place Dauphine (Neudorf)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5730300,7.7536900	Place de l'Etoile / Centre administratif / 2 (Neudorf)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5796400,7.7618500	Place du Foin (Krutenau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5811440,7.7682265	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.5787800,7.7696200	Angle de l'avenue de Gaulle et de la rue de Londres (Esplanade)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5810700,7.7699500	Angle de la rue Vauban et du boulevard de la Victoire (Esplanade)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5810000,7.7698900	Jonction du boulevard de la Victoire et de la rue Vauban (Esplanade)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5706372,7.7641433	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.5725500,7.7652400	Angle de la route du Rhin et du pont Churchill (Neudorf)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5737400,7.7661500	Place Churchill (Neudorf)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5726600,7.7627300	Route du Rhin (Neudorf)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5739700,7.7662600	Pont Churchill (Neudorf)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5745300,7.7666700	Angle du quai des Alpes et du pont Churchill (Esplanade)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5715800,7.7702200	Route du Rhin / Rue de Lièpvre (Neudorf)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5678300,7.7515500	Avenue de Colmar / Schluthfeld (Neudorf)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5613600,7.7515100	Angle de l'avenue de Colmar et de la route de la Fédération (Meinau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5621400,7.7526000	Angle de l'avenue de Colmar et de la rue de l'Extenwoerth (Meinau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5694418,7.7630981	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.5654600,7.7594300	Angle de la route du Polygone et de l'avenue Léon Dacheux (Neudorf)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5696100,7.7631000	Avenue Jean Jaurès / Tram Landsberg (Neudorf)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5695100,7.7630600	Angle de l'avenue Jean Jaurès et de la rue de Rathsamhausen (Neudorf)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5669400,7.7730400	Angle des avenues Jean Jaurès et Aristide Briand (Neudorf)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5692400,7.7783100	Route du Rhin / Avenue Aristide Briand (Neudorf)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5670900,7.7733600	Avenue Aristide Briand / Avenue Jean Jaurès (Neudorf)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5610800,7.7639300	Angle de la route du Polygone et de la rue de la Gravière (Neudorf)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5641500,7.7688800	Angle des rues de Ribeauvillé et de Bâle (Neudorf)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5804900,7.7792300	Angle du boulevard d'Anvers et de l'avenue de la Forêt Noire (Orangerie-Quinze)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5705700,7.7854700	Angle des routes du Rhin et du Petit Rhin (Port du Rhin)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5727600,7.7944500	Angle de la route du Rhin et de la rue Couleaux (Port du Rhin)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5719300,7.7951300	Angle de l'avenue du pont de l'Europe et de la rue des Cavaliers (Port du Rhin)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5584500,7.7490400	Avenue de Colmar / Couffignal (Meinau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5486600,7.7490700	Angle des rues de Bourgogne et de la Canardière (Meinau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5521600,7.7517300	Angle de la rue de Franche-Comté et de la route de la Meinau (Meinau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5489400,7.7562600	Rue Jean Hoepfner (Meinau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5490800,7.7538100	Angle de la rue Schulmeister et de l'avenue de Normandie (Meinau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5504100,7.7558900	Angle des rues Schulmeister et Louis Loucheur (Meinau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5496700,7.7505100	Place de l'Ile de France / Pôle Sud (Meinau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5509600,7.7508300	Place de l'Ile de France / Rue de Franche-Comté (Meinau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5544300,7.7663400	Angle de la route du Neuhof et de la rue des Canonniers (Neuhof)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5543200,7.7630200	Rue des Canonniers (Neuhof)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5516500,7.7666900	Rue de l'Indre (Neuhof)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5513300,7.7578900	Angle de la rue du Rhin tortu et de la route de la Meinau (Meinau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5501700,7.7721000	Rue du Commandant François (Neuhof)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5477800,7.7555700	Rue Auguste Brion (Meinau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5468400,7.7538100	Rue Arthur Weeber (Meinau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5469300,7.7546000	Angle des rues Eugène Imbs et Auguste Brion (Meinau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5474200,7.7514900	Angle de la rue Schulmeister et de l'avenue de la Canardière (Meinau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5484500,7.7528700	Rue Schulmeister (Meinau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5444100,7.7656900	Angle de la route d'Altenheim et de la rue de la Ganzau (Neudorf)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5448800,7.7568100	Rue de la Corse (Meinau)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5462200,7.7655900	Angle de la route du Neuhof et de la rue de de l'Abbé de l'Epée (Neuhof)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5454900,7.7609200	Angle des rues de l'Abbé de l'Epée et des Linottes (Neuhof)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5434100,7.7722300	Angle de l'allée des Déportés et de la rue de la Klebsau (Neuhof)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5458300,7.7674500	Allée Reuss (Neuhof)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5459900,7.7718700	Angle des rues Ingold et Jean Mermoz (Neuhof)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5416800,7.7752100	Angle de l'allée des Déportés et de la rue Crabbe (Neuhof)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.2862955,6.9503212	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+48.5086000,7.6956900	D1083/N353 (Rocade Sud)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5047900,7.7096500	N353 / Proche de la rue J.-M. Jacquard (Rocade Sud)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.5020500,7.7249100	N353 / Proche du canal du Rhône au Rhin (Rocade Sud)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.3956741,7.7257935	CCTV	note: camera watching the southern entrance to the sluice</br>type: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.4986300,7.7402900	N353/Proche ruisseau Scwarzwasser (Rocade Sud)	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+48.4743895,7.9380953	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.3251416,5.0314717	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.3223546,5.0300992	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.3235338,5.0288924	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.3235074,5.0312280	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.3236245,5.0336174	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.3242244,5.0406911	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.3271128,5.0439489	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.3260805,5.0454662	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.3240986,5.0445369	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.3219382,5.0341277	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.3223823,5.0369994	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.3217970,5.0377574	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.3230232,5.0384638	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.3213532,5.0418254	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.3214927,5.0410152	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.3222841,5.0410097	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.3223566,5.0391020	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.3229823,5.0390818	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.3216865,5.0399099	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.3201218,5.0388031	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.3182156,5.0359096	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.3167006,5.0426921	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+46.5660279,3.3276805	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+46.6844951,5.5650824	GES Cosec	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6849776,5.5655481	GES Cosec	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6847516,5.5650675	GES Cosec	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6846616,5.5657264	GES Cosec	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6811237,5.5733789	Services Techniques	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6755857,5.5492279	Parking Regard	video surveillancetype: indoor	http://www.leretourdelautruche.com/map/cctv/cctv_indoor.png
+46.6757364,5.5494151	Parking Regard	video surveillancetype: indoor	http://www.leretourdelautruche.com/map/cctv/cctv_indoor.png
+46.6755885,5.5490204	Parking Regard	video surveillancetype: indoor	http://www.leretourdelautruche.com/map/cctv/cctv_indoor.png
+46.6758704,5.5491832	Parking Regard	video surveillancetype: indoor	http://www.leretourdelautruche.com/map/cctv/cctv_indoor.png
+46.6758704,5.5489756	Parking Regard	video surveillancetype: indoor	http://www.leretourdelautruche.com/map/cctv/cctv_indoor.png
+46.6757448,5.5489919	Parking Regard	video surveillancetype: indoor	http://www.leretourdelautruche.com/map/cctv/cctv_indoor.png
+46.6755885,5.5494477	Parking Regard	video surveillancetype: indoor	http://www.leretourdelautruche.com/map/cctv/cctv_indoor.png
+46.6757392,5.5492116	Parking Regard	video surveillancetype: indoor	http://www.leretourdelautruche.com/map/cctv/cctv_indoor.png
+46.6758788,5.5493907	Parking Regard	video surveillancetype: indoor	http://www.leretourdelautruche.com/map/cctv/cctv_indoor.png
+46.6720697,5.5505437	Préfecture	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6742455,5.5503836	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6743991,5.5494558	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6743041,5.5499034	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6721479,5.5508171	Préfecture	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6748793,5.5508556	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6746420,5.5507132	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6770715,5.5727503	École François Rollet	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6808117,5.5737557	Services Techniques	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6794184,5.5724606	Croisement Sautot	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6769051,5.5727040	École François Rollet	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6772772,5.5722707	École François Rollet	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6779969,5.5717230	Maison de l'Emploi	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6776567,5.5722081	Maison Commune	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6773426,5.5726958	École François Rollet	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6774099,5.5723961	École François Rollet	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6780412,5.5713723	Maison de l'Emploi	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6796930,5.5726735	Croisement Sautot	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6775015,5.5716822	Maison Commune	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6771968,5.5727994	École François Rollet	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6776532,5.5716997	Maison Commune	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6804551,5.5739376	Services Techniques	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6770322,5.5722735	École François Rollet	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6792315,5.5726266	Croisement Sautot	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6778025,5.5720718	Maison Commune	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6777670,5.5713307	Maison de l'Emploi	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6768220,5.5724946	École François Rollet	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6792198,5.5732142	Croisement Sautot	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6793541,5.5729587	Croisement Sautot	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6795148,5.5727118	Croisement Sautot	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6750186,5.5636314	MJC	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6749146,5.5637139	MJC	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6749742,5.5639901	MJC	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6751669,5.5638810	MJC	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6750919,5.5639924	MJC	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6751347,5.5637718	MJC	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6749116,5.5640169	MJC	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.6748290,5.5638275	MJC	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.1299924,3.4236282	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+46.1264426,3.4256119	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+46.1212477,3.4243483	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+46.1231977,3.4220662	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.1246140,3.4267851	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.1255211,3.4263544	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.1248457,3.4275063	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.1251282,3.4249505	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+46.1184824,3.4225762	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+46.1263173,3.4303553	CCTV	amenity: clock	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.6358446,6.8546672	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.6359268,6.8545821	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.2659057,6.0460819	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.2634790,6.0448371	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.2636938,6.0447972	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.6603702,7.5282950	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+47.6540792,7.5347782	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+47.6489449,7.5424858	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+47.6445502,7.5517727	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+47.6399991,7.5605961	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+47.6344065,7.5678058	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+47.6265226,7.5745006	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+47.5852311,7.6183305	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+47.5380250,7.4989613	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+46.5080588,6.6844542	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+46.5029182,6.6822414	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+46.4808215,6.8857893	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.6753694,6.3888416	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1883828,5.7127094	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1924272,5.7207373	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1948183,5.7306964	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1939379,5.7321166	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1880326,5.7189794	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1909707,5.7199392	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1907107,5.7154270	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1902880,5.7155280	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1877970,5.7191130	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1871422,5.7275289	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1883922,5.7282873	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1885304,5.7311903	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1957648,5.7348639	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1868271,5.7367598	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1870580,5.7374279	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1878012,5.7392137	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1877075,5.7389836	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1840441,5.7176756	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1866549,5.7328746	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1858168,5.7427230	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1864319,5.7370763	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1864545,5.7358021	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.1860512,5.7361214	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+44.1036132,1.0861755	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+44.1039766,1.0849034	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.7737664,1.6869477	La Poste	amenity: atm	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6380363,1.4441748	3 cocus	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6407791,1.4525675	Borderouge	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6336184,1.4354732	La Vache	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6269286,1.4334739	Barrière de Paris	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6270280,1.4341692	Barrière de Paris	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6267764,1.4338226	Barrière de Paris	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6265869,1.4336885	Barrière de Paris	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6205353,1.4356540	Minimes - Claude Nougaro	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6206098,1.4358429	Minimes - Claude Nougaro	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6204016,1.4356959	Minimes - Claude Nougaro	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6291183,1.4827089	Balma Gramont	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6293622,1.4826936	Balma Gramont	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6199318,1.4696735	Roseraie	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6198730,1.4694484	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6243703,1.4768303	Argoulets	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6242836,1.4769277	Argoulets	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6151781,1.4339222	Canal du midi	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6108819,1.4358405	Compans Caffarelli	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6108383,1.4357989	Compans Caffarelli	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6104840,1.4357216	Compans Caffarelli	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6152021,1.4339561	Canal du Midi	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6151242,1.4347032	Canal du Midi	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6057687,1.4492308	Jean Jaurès	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6057364,1.4488024	Jean Jaurès	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6056362,1.4486084	Jean Jaurès	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6059857,1.4488004	Jean Jaurès	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6086238,1.4456659	Jeanne d'Arc	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6056597,1.4490822	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5963900,1.4230059	Patte d'Oie	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6045692,1.4454371	Capitole	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6044765,1.4453820	Capitole	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6001246,1.4440559	Esquirol	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6003007,1.4441306	Esquirol	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5994697,1.4453181	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.6004988,1.4441145	Esquirol	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6006536,1.4482470	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5996480,1.4492521	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.6005434,1.4457296	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5996666,1.4492735	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5981802,1.4317179	Saint Cyprien République	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5980969,1.4308974	Saint Cyprien République	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5978651,1.4318271	Saint Cyprien République	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5979845,1.4315855	Saint-Cyprien République	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5977639,1.4454502	Carmes	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5978396,1.4454368	Carmes	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6107605,1.4550373	Marengo SNCF	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6152782,1.4633846	Jolimont	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6153332,1.4637567	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6003579,1.4522992	François Verdier	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6077785,3.8926051	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6077693,3.8925898	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.6070477,3.8938271	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+44.1042206,4.7557952	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+44.1026199,4.7580020	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+44.1026920,4.7580343	CCTV	video surveillancetype: public	http://www.leretourdelautruche.com/map/cctv/cctv_public.png
+43.5745945,1.4020320	Mirail Université	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5699430,1.3922839	Basso Cambo	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5708457,1.4018908	Reynerie	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5660825,1.3982966	Bellefontaine	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5934558,1.4184416	Arènes	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5834999,1.4152986	Mermoz	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5835153,1.4152039	Mermoz	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5874952,1.4184903	Fontaine-Lestang	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5875317,1.4184064	Fontaine Lestang	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5924473,1.4444268	Palais de Justice	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5861145,1.4470932	Saint Michel Marcel Langer	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5798781,1.4120282	Bagatelle	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5803390,1.4498764	Saint Agne SNCF	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5798541,1.4420890	Empalot	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5794652,1.4592618	Saouzelong	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5747835,1.4618241	Rangueil	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5746839,1.4621575	Rangueil	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5742163,1.4669421	CCTV	video surveillancetype: traffic	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5680403,1.4645337	Faculté de Pharmacie	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5680852,1.4645122	Faculté de Pharmacie	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5669455,1.4674039	CCTV	operator: Rectorat de Toulouse</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5692955,1.4666661	CCTV	operator: Rectorat de Toulouse</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5672037,1.4679039	CCTV	operator: Rectorat de Toulouse</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5664585,1.4688045	CCTV	operator: Rectorat de Toulouse</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5666832,1.4688448	CCTV	amenity: bicycle_parking	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5673377,1.4650647	CCTV	operator: Rectorat de Toulouse</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5672627,1.4649173	CCTV	operator: Rectorat de Toulouse</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5698256,1.4647428	CCTV	operator: Rectorat de Toulouse</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5714115,1.4627068	CCTV	operator: Rectorat de Toulouse</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5698458,1.4677778	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5624554,1.4663308	CCTV	operator: Université Paul Sabatier</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5635262,1.4694222	CCTV	operator: Université Paul Sabatier</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5618823,1.4702914	CCTV	operator: Université Paul Sabatier</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5627117,1.4687457	CCTV	operator: Université Paul Sabatier</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5612085,1.4672113	CCTV	operator: Université Paul Sabatier</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5614847,1.4659934	CCTV	operator: Université Paul Sabatier</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5633505,1.4651430	CCTV	operator: Université Paul Sabatier</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5609723,1.4632229	Université Paul Sabatier	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5611533,1.4634356	Université Paul Sabatier	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5608656,1.4639934	CCTV	amenity: atm	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5612962,1.4634565	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5614174,1.4636916	CCTV	operator: Rectorat de Toulouse</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5614712,1.4628515	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5648425,1.4692250	CCTV	operator: Rectorat de Toulouse</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5645862,1.4701008	CCTV	operator: Rectorat de Toulouse</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5659337,1.4689791	CCTV	operator: Rectorat de Toulouse</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5651859,1.4648530	CCTV	operator: Université Paul Sabatier</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5613331,1.4639146	CCTV	operator: Université Paul Sabatier</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5647115,1.4631256	CCTV	operator: Rectorat de Toulouse</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5647332,1.4627473	CCTV	operator: Rectorat de Toulouse</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5646048,1.4629560	CCTV	operator: Rectorat de Toulouse</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5630180,1.4665239	CCTV	operator: Université Paul Sabatier</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5648920,1.4629416	CCTV	operator: Rectorat de Toulouse</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5603088,1.4706691	CCTV	operator: Université Paul Sabatier</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5607248,1.4624338	Université Paul Sabatier	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5571652,1.4654999	CCTV	operator: Rectorat de Toulouse</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5607501,1.4641120	CCTV	operator: Université Paul Sabatier</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5589499,1.4675126	CCTV	operator: Université Paul Sabatier</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5603514,1.4660688	CCTV	operator: Université Paul Sabatier</br>type: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.5557774,1.4763835	Ramonville	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5586647,1.4740748	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5210604,1.5117060	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.5210682,1.5118616	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.2977131,5.3662280	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.2953801,5.3858180	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.2954074,5.3859896	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+44.2321415,7.1057287	CCTV	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+43.2708841,6.6406404	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+43.2732097,6.6397854	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png
+49.2406498,6.9904936	CCTV	video surveillancetype: indoor	http://www.leretourdelautruche.com/map/cctv/cctv_indoor.png
+45.1874555,5.7400517	Stade des Alpes	video surveillancetype: indoor	http://www.leretourdelautruche.com/map/cctv/cctv_indoor.png
+47.1336949,-2.2458033	Sémaphore	video surveillance	http://www.leretourdelautruche.com/map/cctv/cctv.png
+45.0703414,2.5792965	CCTV	video surveillancetype: outdoor	http://www.leretourdelautruche.com/map/cctv/cctv_outdoor.png

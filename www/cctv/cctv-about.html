@@ -1,0 +1,54 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  	<title>Surveillance-Camera Map</title>
+  	<link rel="icon" type="image/png" href="cctv.ico" />
+</head>
+  <body>
+		<h1>Surveillance-Camera Map</h1>
+		<h3><a href="cctv.html">Back to the main map</a> :: <a href="index.html">CCTV Inventory</a> :: <a href="../index.html">other maps</a></h3>
+  <p><a href="cctv.html"><strong>Text layer</strong></a> (with icons, see below)</p>
+<p>The map show surveillance camera location in the world according to OpenStreetMap data.<br>
+		<strong>The map was limited to the boundary covering France (performance with OpenLayers text layer).</strong></p>
+<table border="1" cellspacing="0" cellpadding="5">
+			<tr>
+				<td width="40px"><div align="center"><img name="" src="cctv.png" width="20" height="20" alt=""></div></td>
+				<td>Surveillance-camera (no other specification)</td>
+			</tr>
+			<tr>
+				<td><div align="center"><img name="" src="cctv_indoor.png" width="20" height="20" alt=""></div></td>
+				<td>Surveillance-camera indoor (inside a private place : shop, bank...)</td>
+			</tr>
+			<tr>
+				<td><div align="center"><img name="" src="cctv_outdoor.png" width="20" height="20" alt=""></div></td>
+				<td>Surveillance-camera outdoor (outdoor but in a private location)</td>
+			</tr>
+			<tr>
+				<td><div align="center"><img name="" src="cctv_public.png" width="20" height="20" alt=""></div></td>
+				<td>Surveillance-camera public (outdoor in a public place)</td>
+			</tr>
+		</table>
+		<p>How the map is made (except for XAPI version which extract data from OSM on-line) :</p>
+		<ul>
+			<li> the base layer map background from <a href="http://www.openstreetmap.org/">OpenStreetMap</a> (<a href="http://wiki.openstreetmap.org/wiki/Mapnik">mapnik</a>, <a href="http://wiki.openstreetmap.org/wiki/Osmarender">Osmarender</a> or <a href="http://open.mapquest.fr/">OpenMapQuest</a> rendering, choose from the layer menu)</li>
+			<li>the surveillance-camera location, extracted from OpenStreetMap database with a python script (get <a href="http://wiki.openstreetmap.org/wiki/Tag:man_made=surveillance">man_made=surveillance</a> tag from a <a href="http://wiki.openstreetmap.org/wiki/Xapi">XAPI</a> request and build a textfile containing location formatted for Layer.Text from OpenLayers API.</li>
+		</ul>
+		<p>Support OSM	project	:	<a href="http://wiki.openstreetmap.org/wiki/Beginners%27_Guide">add the surveillance-camera existing in your town</a>.</p>
+		<p>made by <a href="http://www.openstreetmap.org/user/Pierre-Alain%20Dorange"><em>Pierre-Alain Dorange</em></a>, data are licence under CC-BY-SA (see <a href="http://wiki.openstreetmap.org/wiki/OpenStreetMap_License">OpenStreetMap Licence</a>)<br>
+			<strong>source code</strong> (python script + html/javascript) : <a href="https://sourceforge.net/projects/pyosm/files/surveillance/">surveillance</a> (BSD licence)</p>
+		<p>
+			<!-- Start of StatCounter Code -->
+				<script type="text/javascript" language="javascript">
+var sc_project=1651860; 
+var sc_invisible=1; 
+var sc_partition=15; 
+var sc_security="9710e8ad"; 
+		</script>
+			
+				<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script>
+				<noscript>
+					<a href="http://www.statcounter.com/" target="_blank"><img  src="http://c16.statcounter.com/counter.php?sc_project=1651860&amp;java=0&amp;security=9710e8ad&amp;invisible=1" alt="hit counter script" border="0"></a>
+				</noscript>
+			<!-- End of StatCounter Code -->
+  </p>
+</body>
+</html>

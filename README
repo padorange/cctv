@@ -1,0 +1,28 @@
+CCTV-OSM-OWNI
+Is a collaborative projet to share a map of cctv-camera surveillance in France. All code and data are free and totally reusable.
+
+Demo at :
+<http://www.leretourdelautruche.com/map/cctv/>
+
+Code licence : New BSD
+Data licence : Creative Commons cc-by-sa
+
+Technologies
+------------
+HTML/CSS
+JavaScript / OpenLayers
+PHP / MySQL
+Python
+
+Main structure (folder)
+-----------------------
+
+www : folder to deploy on a web site
+  www/cctv : main code (html, css, php, js)
+  www/OpenLayers : OpenLayers API
+  www/osm : OSM for Openlayers
+data : default data, can be updated with python scripts (below)
+scripts : python scripts to extract and preprocess data
+  scripts/pyOSM : tools to handle OSM data
+  scripts/xlrd : library to read XLS data file
+

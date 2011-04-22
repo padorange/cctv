@@ -1,0 +1,41 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  <title>Inventaire de la vid&eacute;osurveillance en France</title>
+	<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+  	<link rel="icon" type="image/png" href="cctv.ico" />
+</head>
+  <body>
+		<h1><img src="cctv0.png" alt="" name="" width="90" height="80" hspace="10" align="absmiddle">Inventaire de la vid&eacute;osurveillance sur la voie publique en France</h1>
+		<p><a href="index.html">Retour au projet</a></p>
+<p>Ce projet est r&eacute;alis&eacute; &agrave; partir de donn&eacute;es libres, le logiciel qui exploite ces donn&eacute;es est propos&eacute; librement pour les d&eacute;veloppeurs qui voudraient soit participer (en corrigeant, am&eacute;liorant ou ajouter des fonctions), soit exploiter le logiciel pour d'autres projets.</p>
+<p>Les donn&eacute;es sont de 3 types :</p>
+<ul>
+	<li>Les g&eacute;olocalisations individuelles des cam&eacute;ras qui sont extraient su projet libre <em><a href="http://openstreetmap.org/">OpenStreetMap</a></em> par un script <strong><a href="http://www.python.org/">Python</a></strong>.</li>
+	<li>L'inventaire collaboratif des villes vid&eacute;o-surveill&eacute;es (ville, nombre de cam&eacute;ras, source...) qui est extrait originellement d'un tableur r&eacute;alis&eacute; par le blog <em><a href="http://bugbrother.blog.lemonde.fr/category/videosurveillance/">BugBrother</a></em> et mis en ligne ici. D&eacute;sormais les donn&eacute;es sont &eacute;ditables directement en ligne et stock&eacute;s dans une base de donn&eacute;es <strong><a href="http://www.mysql.fr/">MySQL</a></strong>, exploit&eacute; par un logiciel <strong><a href="http://www.php.net/">PHP</a></strong>.</li>
+	<li>Liste des villes, extrait par un script <strong>python</strong> des donn&eacute;es libres de <strong>l'INSEE</strong> (<a href="http://www.insee.fr/fr/methodes/nomenclatures/cog/documentation.asp">COG</a>)</li>
+</ul>
+<p>La carte est r&eacute;alis&eacute;e en <strong>HTML/CSS</strong> et <strong><a href="https://developer.mozilla.org/fr/JavaScript">JavaScript</a></strong> via la librairie <strong><a href="http://openlayers.org/">OpenLayers</a></strong> qui permet d'utiliser des fonds de cartes (ici celui du projet OpenStreetMap).</p>
+<h3>Technologies mise en &oelig;uvre</h3>
+<p>Donn&eacute;es :</p>
+<ul>
+	<li>OpenStreetMap (donn&eacute;es de bases + fonds de carte)</li>
+</ul>
+<p>Pr&eacute;-traitement des donn&eacute;es :</p>
+<ul>
+	<li>Scripts Python 2.5</li>
+</ul>
+<p>Logiciel en ligne :</p>
+<ul>
+	<li>HTML 4 / CSS 2, pour la mise en forme</li>
+	<li>PHP 4, pour l'acc&egrave;s &agrave; la base de donn&eacute;es et la partie collaborative</li>
+	<li>MySQL 5, stockage des donn&eacute;es (g&eacute;olocalisation et inventaire des villes)</li>
+	<li>JavaScript
+		<ul>
+			<li>OpenLayers 2.8</li>
+		</ul>
+	</li>
+  </ul>
+<p>T&eacute;l&eacute;charger le kit complet.</p>
+<p>R&eacute;alisation : <a href="http://www.openstreetmap.org/user/Pierre-Alain Dorange">Pierre-Alain Dorange</a> :: <a href="http://www.leretourdelautruche.com/map/">Autres projets cartographiques</a></p>
+</body>
+</html>

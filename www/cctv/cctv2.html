@@ -1,0 +1,45 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  	<link rel="icon" type="image/png" href="cctv.ico" />
+	<link href="../map.css" rel="stylesheet" type="text/css" media="screen" />
+    <script type="text/javascript" src="../OpenLayers/OpenLayers.js"></script>
+    <script type="text/javascript" src="../osm/OpenStreetMap.js"></script>
+    <script type="text/javascript" src="cctv2.js"></script>
+  <title>Carte des cam&eacute;ras de surveillance</title>
+</head>
+  <body onLoad="init()">
+    <div id="map"></div>
+  <div id="logo"></div>
+<div id="about">
+		<b>Carte des cam&eacute;ras de surveillance en France</b> (<a href="https://spreadsheets.google.com/ccc?key=0AsDz917Uxf2bdGtJMmpMWXcwMWk4c2J6UXlBRldySWc&hl=fr">donn&eacute;es BugBrother</a>)<br>
+	<a href="index.html">Autres cartes</a> :: 
+donn&eacute;es extraite le :
+<script type="text/javascript">
+		<!--
+			/* get the modification date of the cctv.txt file */
+			var request=new XMLHttpRequest();
+			request.open("HEAD","http://www.leretourdelautruche.com/map/cctv/cctv_manhack.txt",false);
+			request.send(null);
+			var date=request.getResponseHeader("Last-Modified")
+			document.writeln(date)
+		-->
+		</script>
+		<noscript>
+		no javascript
+		</noscript><br>	r&eacute;alis&eacute; par <a href="http://www.openstreetmap.org/user/Pierre-Alain%20Dorange">Pierre-Alain Dorange</a>	</div>
+<!-- Start of StatCounter Code -->
+	<script type="text/javascript" language="javascript">
+	var sc_project=1651860; 
+	var sc_invisible=1; 
+	var sc_partition=15; 
+	var sc_security="9710e8ad"; 
+	</script>
+	<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script>
+	<noscript>
+		<a href="http://www.statcounter.com/" target="_blank">
+		<img  src="http://c16.statcounter.com/counter.php?sc_project=1651860&amp;java=0&amp;security=9710e8ad&amp;invisible=1" alt="hit counter script" border="0">
+		</a>
+	</noscript>
+	<!-- End of StatCounter Code -->
+  </body>
+</html>
