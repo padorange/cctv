@@ -1,0 +1,65 @@
+How to use python scripts tools
+
+This set of python scripts download and preprocess data to be used inside CCTV OSM project : a web interactive map that show surveillance in France.
+With 2 kinds of data :
+- individual cctv camera locations (appears at high zoom level)
+	from openstreetmap.org database (OSM)
+- city information (number of cctv camera, cost...)
+	from Manhack's XLS for BugBrother/OWNI
+Those raw data are mix with insee data
+
+All those data are free :
+OSM licence : creative commons cc-by-sa
+	<http://www.openstreetmap.org/copyright>
+INSEE/COG licence : creative commons cc-by-sa compatible
+	<http://www.insee.fr/fr/publications-et-services/default.asp?page=copyright.htm>
+BUGBROTHER licence : 
+
+
+A/ First time
+-------------
+
+A1/ extract insee data
+Download insee COG data (city, county and region name and id)
+and store them in a local SQLite database.
+
+	python extract_insee.py -download
+
+A2/ extract administrative data for France (communes) from OSM
+Require france_place.xml data file in data folder.
+Extract city from OSM and match them with insee data
+store results into the local SQLite database
+Match insee city with coordinates from OSM.
+
+	python extract_admin.py -f./data/france_place.xml -l8
+
+A3/ extract cctv camera from OSM
+Require fr_0.xml data file in data folder.
+Extract individual cctv localisation from OSM.
+Filter for france only (fr_0.osm describe boundary)
+Create a SQL text file with cctv table ready to be used
+
+	python extract_cctv.py -download
+
+A4/ extract city data regarding surveillance from Manhack's XLS
+Extract data from XLS file (manhack.xls)
+Create a SQL text file with city surveillance table ready to be used
+
+	python extract_manhack.py
+
+A5/ Convert local data to SQL database
+Convert local data from SQLite database to a SQL text file
+	python data2sql.py
+
+A6/ MYSQL deployement
+You'll find inside data folder three text files (previously preprocess) :
+- insee_city.sql
+- cctv_osm.sql
+- cttv_manhack.sql
+
+Import those files into your remote MYSQL database using import function from phpmyadmin.
+
+B/ Updates
+----------
+
+To update data (OSM cctv location), you just need to run A3 and import again into MYSQL.
