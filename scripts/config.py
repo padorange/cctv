@@ -7,6 +7,6 @@
 """
 
 ftp_host="ftp.leretourdelautruche.com"	# your ftp server
-ftp_user="leretour"	# your ftp use login
-ftp_password="63UvekXN"	# your ftp user password
+ftp_user="xxx"	# your ftp use login
+ftp_password="xxx"	# your ftp user password
 ftp_directory="/www/map/cctv"	# the directory (on ftp) to put data
