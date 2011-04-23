@@ -28,7 +28,7 @@ import xlrd			# handle Microsoft Excel (tm) file (XLS), copyright 2005-2006, Ste
 # constants
 __version__="0.2"
 text_filename="./data/insee_city.sql"
-sqlDBFileName="./data/insee2007.sqlite3"
+sqlDBFileName="./data/insee.sqlite3"
 
 # objects
 
