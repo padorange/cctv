@@ -38,31 +38,16 @@ import xlrd				# handle Microsoft Excel (tm) file (XLS), copyright 2005-2006, St
 __version__="0.4"
 xls_filename="./data/manhack.xls"	# remise en forme
 text_filename="./data/cctv_manhack.sql"
-sqlDBFileName="./data/insee2007.sqlite3"
+sqlDBFileName="./data/insee.sqlite3"
 
 # objects
-class OSMNode():
-	"""
-		OSMNode : basic node handle id, location and name
-			location is (latitude,longitude)
-	"""
-	def __init__(self,id=-1,location=(0.0,0.0)):
-		self.osm_id=id
-		self.location=location
-		self.name="(no-name)"
-		
-	def show(self):
-		print "%s @ (%.2f,%.2f)" % (self.name,self.location[0],self.location[1])
 
-	def open_in_osm(self,zoom=12,layer='0B00FTF'):
-		webbrowser.open("http://www.openstreetmap.org/?lat=%f&lon=%f&zoom=%d&layers=%s" % (self.location[0],self.location[1],zoom,layer))
-
-class OSMSurveillance(OSMNode):
+class OSMSurveillance(pyOSM.Node):
 	"""
 		OSMSurveillance : node dedicated to surveillance cctv (man_made=surveillance in OSM)
 	"""
 	def __init__(self,id=-1,location=(0.0,0.0)):
-		OSMNode.__init__(self,id,location)
+		pyOSM.Node.__init__(self,id,location)
 		self.insee=""
 		self.county=""
 		self.population=0
@@ -76,7 +61,7 @@ class OSMSurveillance(OSMNode):
 		
 	def show(self,short=True):
 		if short:
-			OSMNode.show(self)
+			pyOSM.Node.show(self)
 		else:
 			print "%s (%d) @ (%.2f,%.2f) : type=%s, operator=%s" % (self.name,self.osm_id,self.location[0],self.location[1],self.type,self.operator)
 
@@ -103,7 +88,7 @@ class OSMNodeList():
 				if data==None:
 					print "> more than one results",len(datas)
 		if data:
-			node=OSMNode()
+			node=pyOSM.Node()
 			node.name=data[0]
 			node.population=data[1]
 			node.dep_id=data[2]

@@ -53,7 +53,7 @@ regionUrl="http://www.insee.fr/fr/methodes/nomenclatures/cog/telechargement/2011
 deptUrl="http://www.insee.fr/fr/methodes/nomenclatures/cog/telechargement/2011/txt/depts2011.txt"
 commUrl="http://www.insee.fr/fr/methodes/nomenclatures/cog/telechargement/2011/txt/comsimp2011.zip"
 popUrl="http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/pages2010/xls/ensemble.xls"
-sqlDBFileName="./data/insee2008.sqlite3"
+sqlDBFileName="./data/insee.sqlite3"
 
 def main(args):
 	override=False	# par défaut, ne pas recharger les fichiers locaux (si ils existent)
@@ -99,9 +99,9 @@ def main(args):
 	dbName=sqlDBFileName
 	if not os.path.isfile(dbName):
 		sql=sqlite3.connect(dbName)
-		sql.execute('''CREATE TABLE regions (id INTEGER PRIMARY KEY NOT NULL,name TEXT,sname TEXT,center TEXT,population INTEGER,year INTEGER);''')
-		sql.execute('''CREATE TABLE departements (id VARCHAR(5) PRIMARY KEY NOT NULL,region INTEGER,name TEXT,sname TEXT,center TEXT,population INTEGER,year INTEGER);''')
-		sql.execute('''CREATE TABLE communes (id VARCHAR(10) PRIMARY KEY NOT NULL,name TEXT,sname TEXT,departement VARCHAR(5),region INTEGER,population INTEGER,year INTEGER,osm_node_id INTEGER);''')
+		sql.execute('''CREATE TABLE regions (id INTEGER PRIMARY KEY NOT NULL,name TEXT,sname TEXT,center TEXT,population INTEGER,year INTEGER,osm_node_id INTEGER,latitude REAL,longitude REAL);''')
+		sql.execute('''CREATE TABLE departements (id VARCHAR(5) PRIMARY KEY NOT NULL,region INTEGER,name TEXT,sname TEXT,center TEXT,population INTEGER,year INTEGER,osm_node_id INTEGER,latitude REAL,longitude REAL);''')
+		sql.execute('''CREATE TABLE communes (id VARCHAR(10) PRIMARY KEY NOT NULL,name TEXT,sname TEXT,departement VARCHAR(5),region INTEGER,population INTEGER,year INTEGER,osm_node_id INTEGER,latitude REAL,longitude REAL);''')
 		sql.commit()
 		print "create new database"
 	else:

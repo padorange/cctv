@@ -43,7 +43,7 @@ key="man_made"	# the OSM key to made the query
 value="surveillance" # the value for the OSM key
 xml_filename="./data/cctv.osm"
 area_filename="./data/fr_0.xml"
-sqlDBFileName="./data/insee2007.sqlite3"
+sqlDBFileName="./data/insee.sqlite3"
 sql_filename="./data/cctv_osm.sql"
 
 """
