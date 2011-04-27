@@ -9,10 +9,11 @@ Data licence : Creative Commons cc-by-sa
 
 Technologies
 ------------
-HTML/CSS
-JavaScript / OpenLayers
-PHP / MySQL
-Python
+HTML 4/CSS 2
+JavaScript / OpenLayers 2.8
+PHP / MySQL / phpmyadmin
+Python 2.5
+Shell
 
 Main structure (folder)
 -----------------------
@@ -21,8 +22,19 @@ www : folder to deploy on a web site
   www/cctv : main code (html, css, php, js)
   www/OpenLayers : OpenLayers API
   www/osm : OSM for Openlayers
-data : default data, can be updated with python scripts (below)
-scripts : python scripts to extract and preprocess data
+scripts : python & shell scripts to extract and preprocess data
   scripts/pyOSM : tools to handle OSM data
   scripts/xlrd : library to read XLS data file
+  scripts/insee : tools to handle insee/cog data
+  scripts/soundex : tools to handle soundex string comparaison
+  scripts/data : base data (manhack's xls file reformatted)
 
+Install www folder on your web server. 
+	Edit config.php according to your web/mysql servers configuration
+Install scripts folder on your local computer.
+	See README in scripts folder for details
+
+The project require a mysql database on the web server side.
+This mysql database must contain data, those data are obtain by running a series of scripts (see README in scripts folder).
+Base data (already preprocess) are delivered in "base_data" folder ready to be imported into mysql database.
+To later updates those data, use scripts.
