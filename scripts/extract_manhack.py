@@ -28,6 +28,7 @@ import sqlite3			# sqlite database (simple local sql database, one user at a tim
 import re
 
 # specific modules
+import config
 import pyOSM
 
 # External Python Modules (require installation)
@@ -36,9 +37,9 @@ import xlrd				# handle Microsoft Excel (tm) file (XLS), copyright 2005-2006, St
 
 # constants
 __version__="0.4"
-xls_filename="./data/manhack.xls"	# remise en forme
-text_filename="./data/cctv_manhack.sql"
-sqlDBFileName="./data/insee.sqlite3"
+xls_filename="%smanhack.xls" % config.osm_data_folder	# remise en forme
+text_filename="%scctv_manhack.sql" % config.osm_data_folder
+sqlDBFileName="%sinsee.sqlite3" % config.osm_data_folder
 
 # objects
 
@@ -259,7 +260,7 @@ def Convert2SQL(in_fname,out_fname):
 	# create the SQL formatted file
 	file=codecs.open(out_fname,"w",encoding="utf-8")
 	file.write("-- extract_manhack.py (%s) SQL dump \n\n"% __version__)
-	file.write("""DROP TABLE `cctv` IF EXISTS;\n\n""")
+	file.write("""DROP TABLE IF EXISTS `cctv`;\n\n""")
 	file.write("""CREATE TABLE IF NOT EXISTS `cctv` (
 					`insee` varchar(8) NOT NULL default '',
 					`nb_actual` int(11) NOT NULL default '0',

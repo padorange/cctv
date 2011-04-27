@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
-	parse_admin.py
-	commande line tool
+	extract_admin.py
+	----------------
 	Parse XML file (obtain from OpenStreetMap OSM) to extract Administrative boundary and place(s)
 	Try to match place(s) with INSEE city (previously extract in local SQLite database)
 	
@@ -18,28 +18,30 @@
 							6 = départements
 							8 = communes
 	
-	Pierre-Alain Dorange, november 2010
+	Pierre-Alain Dorange, april 2011
 """
 
 # standard python modules
 from xml.etree import ElementTree	# fast xml parser module
-import string
+import string, codecs
 import time, datetime
 import os.path
 import sys,getopt	# handle commande-line arguments
 import sqlite3
 
 # external module
+import config
 import pyOSM
 import soundex
 
 __version__="0.4"
-sqlDBFileName="./data/insee.sqlite3"
 default_level=4
 default_file='test.xml'
 default_area=False
 dep_match=""
-area_filename="./data/fr_0.xml"
+sqlDBFileName="%sinsee.sqlite3" % config.osm_data_folder
+area_filename="%sfr_0.xml" % config.osm_data_folder
+
 country_exclude=("italy","schweiz","deutschland","wales","uk","england","spain","belgium","belgique")
   
 def ensure_dir(f):
@@ -91,11 +93,11 @@ class OSMCity(pyOSM.Node):
 		self.county="(no-county)"
 		self.region="(no-region)"
 		self.population=0
-		self.departement=""	# alphanuméric (corse=2B)
-		self.insee=""		# alphanumeric (01110)
-		self.cp=""			# alphanumeric (01110)
+		self.departement=""		# alphanuméric (corse=2B)
+		self.insee=""			# alphanumeric (01110)
+		self.cp=""				# alphanumeric (01110)
 		self.ref=""
-		self.level=8
+		self.level=8			# level 8 = city in OSM
 		self.type="(no-type)"
 		
 	def show(self,short=True):
@@ -111,13 +113,13 @@ class OSMRegion(pyOSM.Way):
 		self.population=0
 		self.node=pyOSM.Node()
 		self.area=pyOSM.Area()
-		self.level=4
+		self.level=4	# level 4 = region in OSM
 		
 	def show(self,short=True):
 		if short:
 			pyOSM.Way.show(self)
 		else:
-			print u"Région %s" % self.name
+			print "Région %s" % self.name
 			print "(osm#%d) : ref=%d, pop=%d" % (self.osm_id,self.ref,self.population)
 			if self.node:
 				print "\t@ (%.3f,%.3f, id=%d, name=%s)" % (self.node.location[0],self.node.location[1],self.node.osm_id,self.node.name)
@@ -132,10 +134,10 @@ class OSMDepartement(pyOSM.Way):
 		self.region=None
 		self.node=pyOSM.Node()
 		self.area=pyOSM.Area()
-		self.level=6
+		self.level=6	# level 6 = county in OSM
 		
 	def show(self,short=True):
-			print u"Département %s" % self.name,
+			print "Département %s" % self.name,
 			print "(osm#%d) : " % self.osm_id,
 			print "ref=%d," % self.ref,
 			print "pop=%d" % self.population
@@ -464,7 +466,7 @@ class OSMAdminList():
 	
 def usage():
 	print
-	print "pase_admin.py usage"
+	print "extract_admin.py usage"
 	print "\t-h (--help) : aide (syntaxe)"
 	print "\t-f (--file) : fichier à analyser (osm standard format)"
 	print "\t-l (--level) : admin level a traiter"
@@ -535,27 +537,35 @@ def main(argv):
 		t0=time.time()
 		dbName=sqlDBFileName
 		if not os.path.isfile(dbName):
-			print "pas de base de données locale, exécuter parse_insee.py avant"
+			print "pas de base de données locale, exécuter extract_insee.py avant"
 		else:
 			sql=sqlite3.connect(dbName)
 		
 			errNo=0
 			errName=0
 			errRef=0
+			errNoRef=0
 			errDep=0
 			errPop=0
 			errMany=0
+			listNo=[]
+			listMany=[]
+			listName=[]
+			listInsee=[]
 			
 			c=sql.cursor()
 			for city in cities.list:
-				print "--"
+				#print "--"
 				
 				# 1/ recherche par code INSEE
 				search_by_name=False
 				c.execute("SELECT communes.name,communes.population,communes.year,communes.departement,departements.name,regions.name,communes.id,communes.sname FROM communes,departements,regions WHERE communes.id='%s' AND communes.departement=departements.id and communes.region=regions.id;" % city.insee)
 				datas=c.fetchall()
 				if len(datas)==0:
-					print "aucune référence INSEE correspondante",city.insee,city.name,city.ref
+					#print city.name
+					#print city.insee
+					#print city.ref
+					#print u"aucune référence INSEE correspondante insee=[%s], name=[%s], ref=[%s]" % (city.insee,city.name,city.ref)
 					data=None
 					search_by_name=True
 				elif len(datas)==1:
@@ -571,18 +581,18 @@ def main(argv):
 					for w in iws:
 						if w in ows:
 							match=match+1
-					if match==0:	# aucun mot en commune, en fait une recherche par nom
+					if match==0:	# aucun mot en commun, en fait une recherche par nom
 						search_by_name=True
-						print "le couple ref/nom ne correspond pas (%s,%s) (%s,%s)" % (city.insee,city.name,data[6],data[0])
+						#print u"le couple ref/nom ne correspond pas (%s,%s) (%s,%s)" % (city.insee,city.name,data[6],data[0])
 					elif match<len(iws):
 						print u"le nom correspond à %.0f for (%s,%s)" % (100*match/len(iws),city.name,data[0])
 				else:
-					print len(datas)," référence(s) INSEE pour",city.insee
+					listMany.append((city.insee,"%d ref insee" % len(datas)))
 					errMany=errMany+1
 					data=None
 				if data==None and search_by_name:
 					# 2/ Recherche par nom nécessaire (code erroné ou nom erronné)
-					print "\trecherche par nom"
+					#print "\trecherche par nom"
 					n=city.name.replace("'","''")
 					c.execute("SELECT communes.name,communes.population,communes.year,communes.departement,departements.name,regions.name,communes.id,communes.sname FROM communes,departements,regions WHERE communes.name='%s' AND communes.departement=departements.id AND communes.region=regions.id;" % n)
 					datas=c.fetchall()
@@ -590,7 +600,7 @@ def main(argv):
 						data=datas[0]
 					if data==None:
 						# 3/ Recherche par soundex sur le nom
-						print "\trecherche par LIKE"
+						#print "\trecherche par LIKE"
 						c.execute("SELECT communes.name,communes.population,communes.year,communes.departement,departements.name,regions.name,communes.id,communes.sname FROM communes,departements,regions WHERE communes.name LIKE '%s' AND communes.departement=departements.id AND communes.region=regions.id;" % n)
 						datas=c.fetchall()
 						if len(datas)==1:
@@ -599,52 +609,72 @@ def main(argv):
 							data=None
 						else:
 							errMany=errMany+1
-							print len(datas),"résultat(s) pour",city.name
+							listMany.append((city.name,"%d candidats" % len(datas)))
 							data=None
 				
 				if data==None:
 					errNo=errNo+1
-					print "\taucun (ou trop) résultat dans la base INSEE"
+					listNo.append((city.name,"pas de résultats"))
 				else:
 					if city.name!=data[0]:
 						errName=errName+1
-						displayName=True
-					else:
-						displayName=False
+						listName.append((city.name,"insee %s : %s" % (city.insee,data[0])))
+					#	displayName=True
+					#else:
+					#	displayName=False
 					if city.insee!=data[6]:
 						errRef=errRef+1
-						displayRef=True
-					else:
-						displayRef=False
+						listInsee.append((city.insee,"insee %s" % data[6]))
+					#	displayRef=True
+					#else:
+					#	displayRef=False
 					if city.population!=int(data[1]):
 						errPop=errPop+1
 					if city.departement!=data[3]:
 						errDep=errDep+1
-						displayDep=True
-					else:
-						displayDep=False
-					if displayName or displayRef or displayDep:
-						if displayName:
-							print "nom\t%s (%s)\t%s" % (city.name,data[6],data[0])
-						else:
-							print "nom\t%s (%s)" % (city.name,data[6])
-					if displayRef:	
-						print "insee\t'%s'\t'%s'" % (city.insee,data[6])
-					if displayDep:
-						print "dep\t%s (%s)\t%s (%s)" % (city.county,city.departement,data[4],data[3])
+					#	displayDep=True
+					#else:
+					#	displayDep=False
+					#if displayName or displayRef or displayDep:
+					#	if displayName:
+					#		print u"nom\t%s (%s)\t%s" % (city.name,data[6],data[0])
+					#	else:
+					#		print u"nom\t%s (%s)" % (city.name,data[6])
+					#if displayRef:	
+					#	print u"insee\t'%s'\t'%s'" % (city.insee,data[6])
+					#if displayDep:
+					#	print u"dep\t%s (%s)\t%s (%s)" % (city.county,city.departement,data[4],data[3])
 					c.execute('''UPDATE communes SET longitude=%.8f, latitude=%.8f, osm_id=%d, osm_type="%s" WHERE id="%s";''' % (city.location[0],city.location[1],city.osm_id,city.osm_id_type,data[6]))
 			sql.commit()
 			c.close()
 			sql.close()
+						
+			print "----------------------"
+			print "Sans résultats :"
+			for i in listNo:
+				print "\t",i[0],",",i[1]
+			print "----------------------"
+			print "Trop de résultats :"
+			for i in listMany:
+				print "\t",i[0],",",i[1]
+			print "----------------------"
+			print "Name error :"
+			for i in listName:
+				print "\t",i[0],",",i[1]
+			print "----------------------"
+			print "Ref error :"
+			for i in listInsee:
+				print "\t",i[0],",",i[1]
 
 			print "-- erreur(s) --"
 			print "Total : %d ville(s) traitée(s)" % len(cities.list)
-			print "%d\taucun résultat" % errNo
+			print "%d\taucun résultat, dont :" % errNo
 			print "%d\tnom différent" % errName
 			print "%d\tcode INSEE différent" % errRef
+			print "%d\tsans code INSEE" % errNoRef
+			print "%d\ttrop de résultats" % errMany
 			print "%d\tdépartement différent" % errDep
 			print "%d\tpopulation différente" % errPop
-			print "%d\ttrop de résultats" % errMany
 
 		t0=time.time()-t0
 		print "> comparing INSEE : %.1f seconds" % t0
@@ -674,8 +704,6 @@ if __name__ == '__main__' :
 	sql data miss
 		16166 L'Isle d'Espagnac
 	
-
-
 	place correction
 	according to place sheme : http://wiki.openstreetmap.org/wiki/Place
 	

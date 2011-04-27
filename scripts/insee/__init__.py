@@ -33,7 +33,7 @@ import xlrd				# handle Microsoft Excel (tm) file (XLS), copyright 2005-2006, St
 __version__="0.3"
 botName="InseeOsmBot"
 botVersion=__version__
-data_folder="./data/"
+temp_folder="./temp/"
 
 """
 	Codage Insee (COG)
@@ -235,8 +235,9 @@ class insee():
 	"""
 		Structure de base pour traiter les données de l'INSEE
 	"""
-	def __init__(self,url):
+	def __init__(self,url,folder):
 		self.url=url
+		self.directory=folder
 		self.data_list=[]
 		self.data_class=None
 		l=self.url.split('/')
@@ -244,7 +245,6 @@ class insee():
 			self.filename=l[-1]
 		else:
 			self.filename="insee_file"
-		self.directory=data_folder
 			
 	def find_by_index(self,search):
 		"""
@@ -281,13 +281,13 @@ class insee():
 		try:
 			if len(self.url)==0:
 				raise
-			if not(override) and os.path.isfile(self.filename):
+			fname="%s%s" % (self.directory,self.filename)
+			if not(override) and os.path.isfile(fname):
 				return
 			opener=urllib2.build_opener()	# declare the user-agent
 			opener.addheaders = [('User-agent', "%s/%s" % (botName,botVersion))]
 			stream=opener.open(self.url)
 			if stream:
-				fname="%s%s" % (self.directory,self.filename)
 				print fname
 				file=open(fname,"wb")
 				for line in stream:
@@ -309,8 +309,8 @@ class insee_txt(insee):
 	"""
 		accesse TEXT formatted INSEE data (iso8859-15)
 	"""
-	def __init__(self,url):
-		insee.__init__(self,url)
+	def __init__(self,url,folder):
+		insee.__init__(self,url,folder)
 		self.data_separator='\t'
 			
 	def scan(self):
@@ -340,8 +340,8 @@ class insee_zip(insee_txt):
 	"""
 		access ZIP/TEXT formatted INSEE data (iso8859-15)
 	"""
-	def __init__(self,url):
-		insee_txt.__init__(self,url)
+	def __init__(self,url,folder):
+		insee_txt.__init__(self,url,folder)
 		
 	def scan(self):
 		try:
@@ -366,8 +366,8 @@ class insee_xls(insee):
 		accesse XLS formatted INSEE data
 		retrieve population data and store into according list
 	"""
-	def __init__(self,url):
-		insee.__init__(self,url)
+	def __init__(self,url,folder):
+		insee.__init__(self,url,folder)
 		
 	def scan(self,regions,departements,communes):
 		try:
@@ -434,23 +434,23 @@ class insee_xls(insee):
 			print "error can't scan xls file",fname,":",sys.exc_info()
 
 class insee_region(insee_txt):
-	def __init__(self,url):
-		insee_txt.__init__(self,url)
+	def __init__(self,url,folder):
+		insee_txt.__init__(self,url,folder)
 		self.data_class=Region
 
 class insee_departement(insee_txt):
-	def __init__(self,url):
-		insee_txt.__init__(self,url)
+	def __init__(self,url,folder):
+		insee_txt.__init__(self,url,folder)
 		self.data_class=Departement
 
 class insee_commune(insee_zip):
-	def __init__(self,url):
-		insee_zip.__init__(self,url)
+	def __init__(self,url,folder):
+		insee_zip.__init__(self,url,folder)
 		self.data_class=Commune
 
 class insee_population(insee_xls):
-	def __init__(self,url):
-		insee_xls.__init__(self,url)
+	def __init__(self,url,folder):
+		insee_xls.__init__(self,url,folder)
 		self.data_class=Population
 
 if __name__ == '__main__' :

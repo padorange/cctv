@@ -5,12 +5,11 @@
 	extract_cctv.py
 	----------------
 	Based on surveillance.py
-	Download man_made=surveillance from OSM data (via XAPI) for a bounding box (or not) 
+	Extract man_made=surveillance from OSM data (preloaded from osmosis or any OSM XML file)
 	and create an SQL Export file (used the SQL data file with Import command in PhpMyAdmin)
 	
 	Usage :
-		python surveillance.py [-download]
-		- download option force downloading of OSM data (via XAPI) otherwise use (if any) existing local file
+		python extract_cctv.py
 	
 	OSM's XAPI specification :
 		<http://wiki.openstreetmap.org/wiki/Xapi>
@@ -32,35 +31,19 @@ import codecs # used to read/write text file with the correct encoding
 import time, datetime
 
 # specific modules
-import config		# define ftp config to conenct (user, password...)
+import config		# define ftp config to connect (user, password...)
 import pyOSM		# tools to handle XML/OSM data
 import xlrd			# handle Microsoft Excel (tm) file (XLS), copyright 2005-2006, Stephen John Machin, Lingfo Pty Ltd
 					# <http://www.lexicon.net/sjmachin/xlrd.htm>
 
 # constants
-__version__="0.2"
+__version__="0.3"
 key="man_made"	# the OSM key to made the query
 value="surveillance" # the value for the OSM key
-xml_filename="./data/cctv.osm"
-area_filename="./data/fr_0.xml"
-sqlDBFileName="./data/insee.sqlite3"
-sql_filename="./data/cctv_osm.sql"
-
-"""
-	Note about XAPI
-	XAPI is not a very reliable source, default xapi servers often are offline
-	beginning 2011, mapquest laucnh its own XAPI server, unfortunnally bounding box are limited to 10 degrees (not enough for France)...
-"""
-xapi_url="http://www.informationfreeway.org/api/0.6/"
-#xapi_url="http://open.mapquestapi.com/xapi/api/0.6/" #openmapquest do not handle large bounding box at the moment
-world=False
-if world:
-	xapi="%s*[%s=%s]"	# url for the XAPI query
-	url=xapi % (key,value)
-else:
-	bbox=(-5.5,42.31,8.3,51.28)	# the bounding box coordinates to get OSM data (France)
-	xapi="%s*[%s=%s][bbox=%.2f,%.2f,%.2f,%.2f]"	# url for the XAPI query
-	url=xapi % (xapi_url,key,value,bbox[0],bbox[1],bbox[2],bbox[3])
+xml_filename="%sfr_surveillance.xml" % config.osm_data_folder
+area_filename="%sfr_0.xml" % config.osm_data_folder
+sqlDBFileName="%sinsee.sqlite3" % config.osm_data_folder
+sql_filename="%scctv_osm.sql" % config.osm_data_folder
 
 # objects
 class OSMSurveillance(pyOSM.Node):
@@ -316,7 +299,7 @@ def Convert2SQL(in_fname,out_fname,area=None):
 
 	file=codecs.open(out_fname,"w",encoding="utf-8")
 	file.write("-- extract_osm.py (%s) SQL dump\n\n"% __version__)
-	file.write(""""DROP TABLE `osmcctv` IF EXISTS;\n\n""")
+	file.write("""DROP TABLE IF EXISTS `osmcctv`;\n\n""")
 	file.write("""CREATE TABLE IF NOT EXISTS `osmcctv` (
 					`osmid` bigint(20) NOT NULL default '0',
 					`id` varchar(8) collate utf8_bin NOT NULL default '',
@@ -372,19 +355,12 @@ def Convert2SQL(in_fname,out_fname,area=None):
 	print "  \tRelation : %d" % nbRel
 			
 def main(args):
-	download=False
-	for arg in args:
-		if arg=="-download" : 
-			download=True
-	if not download:
-		if not os.path.exists(xml_filename):
-			download=True
-	if download:
-		GetData(url,xml_filename)
-
 	# get french area to filter nodes in this area
-	area=pyOSM.Area()
-	area.read(area_filename)		
+	if len(area_filename)>0:
+		area=pyOSM.Area()
+		area.read(area_filename)
+	else:
+		area=None
 
 	Convert2SQL(xml_filename,sql_filename,area)
 	

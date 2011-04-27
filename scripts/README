@@ -1,65 +1,65 @@
-How to use python scripts tools
+How to use shell & python scripts tools
 
-This set of python scripts download and preprocess data to be used inside CCTV OSM project : a web interactive map that show surveillance in France.
-With 2 kinds of data :
-- individual cctv camera locations (appears at high zoom level)
+This set of scripts download and preprocess data to be used inside CCTV OSM project : a web interactive map that show surveillance in France.
+The project use 3 kinds of data :
+- individual cctv camera locations (appears at high zoom level on the map)
 	from openstreetmap.org database (OSM)
-- city information (number of cctv camera, cost...)
+- city admin information (name, insee code, population…)
+	mix from OSM and INSEE/COG data
+- city cctv information (number of cctv camera, cost...)
 	from Manhack's XLS for BugBrother/OWNI
-Those raw data are mix with insee data
+
+The scripts came with 2 preprocessed data : manhack.xls and fr_0.xml
 
 All those data are free :
 OSM licence : creative commons cc-by-sa
 	<http://www.openstreetmap.org/copyright>
 INSEE/COG licence : creative commons cc-by-sa compatible
 	<http://www.insee.fr/fr/publications-et-services/default.asp?page=copyright.htm>
-BUGBROTHER licence : 
 
+Requirements
+------------
+A shell : this how-to require a shell (linux or macos x)
+Java 6
+Python 2.5
+Osmosis installed (http://wiki.openstreetmap.org/wiki/Osmosis)
 
-A/ First time
--------------
+If not, make all sheel scripts (*.sh) executable : chmod +x *.sh
 
-A1/ extract insee data
-Download insee COG data (city, county and region name and id)
-and store them in a local SQLite database.
+A/ First time : get Data
+------------------------
 
-	python extract_insee.py -download
+A0/ Configure
+Run the shell script : ./configure.sh
+It create data directory (~/osm/data and ~/osm/data/temp) and copy initial data in it (manhack.xls and fr_0.xml).
 
-A2/ extract administrative data for France (communes) from OSM
-Require france_place.xml data file in data folder.
-Extract city from OSM and match them with insee data
-store results into the local SQLite database
-Match insee city with coordinates from OSM.
+A1/ Download data and preprocess
+Run the shell script : ./first_run.sh
+Wait for completion, it's a long process (time depends on your configuration) :
+	- download OSM raw data, 1.5 GB on april 2011 (from 30 to 90 minutes)
+	- download and process INSEE/COG data (from 1 to 2 minutes)
+	- extract and process OSM's city data (from 60 to 90 minutes)
+	- extract and process OSM's cctv camera data (from 60 to 90 minutes)
+	- extract and process initial BugBrother data (from )
 
-	python extract_admin.py -f./data/france_place.xml -l8
-
-A3/ extract cctv camera from OSM
-Require fr_0.xml data file in data folder.
-Extract individual cctv localisation from OSM.
-Filter for france only (fr_0.osm describe boundary)
-Create a SQL text file with cctv table ready to be used
-
-	python extract_cctv.py -download
-
-A4/ extract city data regarding surveillance from Manhack's XLS
-Extract data from XLS file (manhack.xls)
-Create a SQL text file with city surveillance table ready to be used
-
-	python extract_manhack.py
-
-A5/ Convert local data to SQL database
-Convert local data from SQLite database to a SQL text file
-	python data2sql.py
-
-A6/ MYSQL deployement
+A2/ MYSQL deployement
 You'll find inside data folder three text files (previously preprocess) :
 - insee_city.sql
 - cctv_osm.sql
 - cttv_manhack.sql
 
 Import those files into your remote MYSQL database using import function from phpmyadmin.
+To create your remote MySQL database, use phpMyAdmin on your web server.
+Create de database, import the 3 files using "import" command in phpmyadmin or use mysql command :
+mysql : mysql -h host -u user -ppass database < file
 
 B/ Updates
 ----------
+Updates reload and reprocess CCTV camera from OSM database
 
-To update data (OSM cctv location), you just need to run A3 and import again into MYSQL.
+B1/ Update data and preprocess
+Run the shell script : ./update.sh
+Wait for completion
+
+B2/ OSM CCTV update
+Import cctv_osm.sql files into your MYSQL database (see A2)
