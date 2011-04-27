@@ -11,12 +11,8 @@ SCRIPTPATH=`dirname $SCRIPT`
 
 cd $SCRIPTPATH
 
-./fr_osm_download.command
-
+./fr_osm_download.sh
 python extract_insee.py
-
-./fr_osm_places.command
-
-./fr_osm_cctv.command
-
+./fr_osm_places.sh
+./fr_osm_cctv.sh
 python extract_manhack.py

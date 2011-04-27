@@ -11,5 +11,5 @@ SCRIPTPATH=`dirname $SCRIPT`
 
 cd $SCRIPTPATH
 
-./fr_osm_download.command
-./fr_osm_cctv.command
+./fr_osm_download.sh
+./fr_osm_cctv.sh
