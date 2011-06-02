@@ -1,7 +1,7 @@
 -- insee2sql.py (0.2) SQL dump
 
-DROP TABLE IF EXISTS `city`;
-				  CREATE TABLE IF NOT EXISTS `city` (
+DROP TABLE IF EXISTS `city2`;
+				  CREATE TABLE IF NOT EXISTS `city2` (
 					`insee` varchar(8) collate utf8_bin NOT NULL default '',
 					`name` text collate utf8_bin NOT NULL,
 					`county` varchar(50) collate utf8_bin NOT NULL default '',
@@ -16,7 +16,7 @@ DROP TABLE IF EXISTS `city`;
 
 -- Contenu TABLE city
 
-INSERT INTO `city` (`insee`, `name`, `county`, `population`, `latitude`, `longitude`, `osmid`, `osmtype`) VALUES
+INSERT INTO `city2` (`insee`, `name`, `county`, `population`, `latitude`, `longitude`, `osmid`, `osmtype`) VALUES
 ("01001","L'Abergement-Clémenciat","Ain (01)",807,4.91697,46.15,36786990),
 ("01002","L'Abergement-de-Varey","Ain (01)",200,5.4234607,46.0071396,410904689),
 ("01004","Ambérieu-en-Bugey","Ain (01)",13272,5.3595099,45.9584309,26691898),

@@ -171,13 +171,32 @@ class Commune(Insee_COG):
 		self.tncc=int(list[7])
 		self.nccenr=list[11].strip('\n').strip('\r')
 		self.build_name()
-		try:
+		try:	# encodage code INSEE : département+code commune
 			if int(self.dep)>100:
 				self.insee="%s%02d" % (self.dep,self.com)
 			else:
 				self.insee="%s%03d" % (self.dep,self.com)
 		except:
 			self.insee="%s%03d" % (self.dep,self.com)
+		#bidouille pour gérer les œ et Œ
+		try:
+			s=u""
+			mod=False
+			for c in self.name:
+				if ord(c)==156:
+					mod=True
+					s=s+u"\u0153"
+				elif ord(c)==140:
+					mod=True
+					s=s+u"\u0152"
+				else:
+					s=s+c
+			if mod:
+				print "\tname: [%s]" % self.name
+				print "\tname: [%s]\n" % s
+				self.name=s
+		except:
+			print "** error\n\t",sys.exc_info()
 
 	def get_index(self):
 		return self.insee

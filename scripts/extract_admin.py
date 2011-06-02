@@ -35,8 +35,8 @@ import pyOSM
 import soundex
 
 __version__="0.4"
-default_level=4
-default_file='test.xml'
+default_level=8
+default_file='/Users/pad/osm/data/fr_places.xml'
 default_area=False
 dep_match=""
 sqlDBFileName="%sinsee.sqlite3" % config.osm_data_folder

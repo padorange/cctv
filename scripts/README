@@ -21,7 +21,7 @@ Requirements
 ------------
 A shell : this how-to require a shell (linux or macos x)
 Java 6
-Python 2.5
+Python 2.5 + pyOSM lib (https://github.com/padorange/pyOSM)
 Osmosis installed (http://wiki.openstreetmap.org/wiki/Osmosis)
 
 If not, make all sheel scripts (*.sh) executable : chmod +x *.sh
